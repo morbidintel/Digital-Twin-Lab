@@ -1,0 +1,4192 @@
+{
+  "type": "CityJSON",
+  "version": "1.0",
+  "CityObjects": {
+    "way/325836609": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "2010",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": "6",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[168,169,170,171]],
+              [[172,173,174,175]],
+              [[176,177,178,179]],
+              [[180,181,182,183]],
+              [[184,185,186,187]],
+              [[188,189,190,191]],
+              [[192,193,194,195]],
+              [[196,197,198,199]],
+              [[200,201,202,203]],
+              [[204,205,206,207]],
+              [[208,209,210,211]],
+              [[212,213,214,215]],
+              [[216,217,218,219]],
+              [[220,221,222,223]],
+              [[224,225,226,227]],
+              [[228,229,230,231]],
+              [[232,233,234,235]],
+              [[236,237,238,239]],
+              [[240,241,242,243]],
+              [[244,245,246,247]],
+              [[248,249,250,251]],
+              [[252,253,254,255]],
+              [[256,257,258,259]],
+              [[260,261,262,263]],
+              [[264,265,266,267]],
+              [[268,269,270,271]],
+              [[272,273,274,275]],
+              [[276,277,278,279]],
+              [[280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307]],
+              [[308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/127348517": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "17",
+        "hdb_year_completed": "1969",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "84",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "56",
+        "hdb_3room_rental": "14",
+        "hdb_other_room_rental": "14",
+        "height": "48.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1428,1429,1430,1431]],
+              [[1432,1433,1434,1435]],
+              [[1436,1437,1438,1439]],
+              [[1440,1441,1442,1443]],
+              [[1444,1445,1446,1447]],
+              [[1448,1449,1450,1451]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171975661": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "3",
+        "hdb_street": "TG PAGAR PLAZA",
+        "hdb_max_floor_lvl": "24",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "165",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "162",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "3",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "68.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[444426,444427,444428,444429]],
+              [[444430,444431,444432,444433]],
+              [[444434,444435,444436,444437]],
+              [[444438,444439,444440,444441]],
+              [[444442,444443,444444,444445]],
+              [[444446,444447,444448,444449]],
+              [[444450,444451,444452,444453]],
+              [[444454,444455,444456,444457]],
+              [[444458,444459,444460,444461]],
+              [[444462,444463,444464,444465,444466,444467,444468,444469,444470]],
+              [[444471,444472,444473,444474,444475,444476,444477,444478,444479]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585681": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1A",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085101",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2304,2305,2306,2307]],
+              [[2308,2309,2310,2311]],
+              [[2312,2313,2314,2315]],
+              [[2316,2317,2318,2319]],
+              [[2320,2321,2322,2323]],
+              [[2324,2325,2326,2327]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585687": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1B",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085201",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2598,2599,2600,2601]],
+              [[2602,2603,2604,2605]],
+              [[2606,2607,2608,2609]],
+              [[2610,2611,2612,2613]],
+              [[2614,2615,2616,2617]],
+              [[2618,2619,2620,2621]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585679": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1C",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085301",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2622,2623,2624,2625]],
+              [[2626,2627,2628,2629]],
+              [[2630,2631,2632,2633]],
+              [[2634,2635,2636,2637]],
+              [[2638,2639,2640,2641]],
+              [[2642,2643,2644,2645]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585684": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1D",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085401",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2646,2647,2648,2649]],
+              [[2650,2651,2652,2653]],
+              [[2654,2655,2656,2657]],
+              [[2658,2659,2660,2661]],
+              [[2662,2663,2664,2665]],
+              [[2666,2667,2668,2669]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585685": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1E",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085501",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2670,2671,2672,2673]],
+              [[2674,2675,2676,2677]],
+              [[2678,2679,2680,2681]],
+              [[2682,2683,2684,2685]],
+              [[2686,2687,2688,2689]],
+              [[2690,2691,2692,2693]],
+              [[2694,2695,2696,2697,2698,2699]],
+              [[2700,2701,2702,2703,2704,2705]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585682": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1F",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085601",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2706,2707,2708,2709]],
+              [[2710,2711,2712,2713]],
+              [[2714,2715,2716,2717]],
+              [[2718,2719,2720,2721]],
+              [[2722,2723,2724,2725]],
+              [[2726,2727,2728,2729]],
+              [[2730,2731,2732,2733,2734,2735]],
+              [[2736,2737,2738,2739,2740,2741]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97585683": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1G",
+        "hdb_street": "CANTONMENT RD",
+        "hdb_max_floor_lvl": "50",
+        "hdb_year_completed": "2009",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "176",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "141.3",
+        "osm_addr:postcode": "085701",
+        "osm_height": "150",
+        "osm_addr:housename": "Pinnacle@Duxton"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2742,2743,2744,2745]],
+              [[2746,2747,2748,2749]],
+              [[2750,2751,2752,2753]],
+              [[2754,2755,2756,2757]],
+              [[2758,2759,2760,2761]],
+              [[2762,2763,2764,2765,2766]],
+              [[2767,2768,2769,2770,2771]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022207": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8A",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1999",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1109508,1109509,1109510,1109511]],
+              [[1109512,1109513,1109514,1109515]],
+              [[1109516,1109517,1109518,1109519]],
+              [[1109520,1109521,1109522,1109523]],
+              [[1109524,1109525,1109526,1109527]],
+              [[1109528,1109529,1109530,1109531]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172596779": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "10",
+        "hdb_street": "SELEGIE RD",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1963",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "48",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "48",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[3690,3691,3692,3693]],
+              [[3694,3695,3696,3697]],
+              [[3698,3699,3700,3701]],
+              [[3702,3703,3704,3705]],
+              [[3706,3707,3708,3709]],
+              [[3710,3711,3712,3713]],
+              [[3714,3715,3716,3717,3718,3719]],
+              [[3720,3721,3722,3723,3724,3725]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022213": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "11",
+        "hdb_street": "YORK HILL",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1969",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "198",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "176",
+        "hdb_2room_rental": "22",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[40698,40699,40700,40701]],
+              [[40702,40703,40704,40705]],
+              [[40706,40707,40708,40709]],
+              [[40710,40711,40712,40713]],
+              [[40714,40715,40716,40717]],
+              [[40718,40719,40720,40721]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022211": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "12",
+        "hdb_street": "YORK HILL",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1969",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "198",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "176",
+        "hdb_2room_rental": "22",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[75054,75055,75056,75057]],
+              [[75058,75059,75060,75061]],
+              [[75062,75063,75064,75065]],
+              [[75066,75067,75068,75069]],
+              [[75070,75071,75072,75073]],
+              [[75074,75075,75076,75077]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022217": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "13",
+        "hdb_street": "YORK HILL",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1969",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "182",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "160",
+        "hdb_2room_rental": "22",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[102162,102163,102164,102165]],
+              [[102166,102167,102168,102169]],
+              [[102170,102171,102172,102173]],
+              [[102174,102175,102176,102177]],
+              [[102178,102179,102180,102181]],
+              [[102182,102183,102184,102185]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/127348512": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "2",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1966",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "264",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "264",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[224274,224275,224276,224277]],
+              [[224278,224279,224280,224281]],
+              [[224282,224283,224284,224285]],
+              [[224286,224287,224288,224289]],
+              [[224290,224291,224292,224293]],
+              [[224294,224295,224296,224297]],
+              [[224298,224299,224300,224301,224302,224303]],
+              [[224304,224305,224306,224307,224308,224309]]
+            ]
+          ]
+        }
+      ]
+    },
+    "relation/4547546": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "5",
+        "hdb_street": "TG PAGAR PLAZA",
+        "hdb_max_floor_lvl": "24",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "166",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "164",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "2",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "68.5",
+        "osm_addr:postcode": "082001",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[791574,791575,791576,791577]],
+              [[791578,791579,791580,791581]],
+              [[791582,791583,791584,791585]],
+              [[791586,791587,791588,791589]],
+              [[791590,791591,791592,791593]],
+              [[791594,791595,791596,791597]],
+              [[791598,791599,791600,791601]],
+              [[791602,791603,791604,791605]],
+              [[791606,791607,791608,791609]],
+              [[791610,791611,791612,791613]],
+              [[791614,791615,791616,791617]],
+              [[791618,791619,791620,791621]],
+              [[791622,791623,791624,791625]],
+              [[791626,791627,791628,791629]],
+              [[791630,791631,791632,791633]],
+              [[791634,791635,791636,791637]],
+              [[791638,791639,791640,791641]],
+              [[791642,791643,791644,791645]],
+              [[791646,791647,791648,791649]],
+              [[791650,791651,791652,791653]],
+              [[791654,791655,791656,791657]],
+              [[791658,791659,791660,791661]],
+              [[791662,791663,791664,791665]],
+              [[791666,791667,791668,791669,791670,791671,791672,791673,791674],[791675,791676,791677,791678],[791679,791680,791681,791682],[791683,791684,791685,791686,791687,791688]],
+              [[791689,791690,791691,791692,791693,791694,791695,791696,791697],[791698,791699,791700,791701],[791702,791703,791704,791705],[791706,791707,791708,791709,791710,791711]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44414531": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "233",
+        "hdb_street": "BAIN ST",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1979",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "120",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "120",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": "180231",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[312330,312331,312332,312333]],
+              [[312334,312335,312336,312337]],
+              [[312338,312339,312340,312341]],
+              [[312342,312343,312344,312345]],
+              [[312346,312347,312348,312349]],
+              [[312350,312351,312352,312353]],
+              [[312354,312355,312356,312357]],
+              [[312358,312359,312360,312361]],
+              [[312362,312363,312364,312365]],
+              [[312366,312367,312368,312369,312370,312371,312372,312373,312374]],
+              [[312375,312376,312377,312378,312379,312380,312381,312382,312383]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/164169185": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "25",
+        "hdb_street": "JLN BERSEH",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "298",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "298",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[330456,330457,330458,330459]],
+              [[330460,330461,330462,330463]],
+              [[330464,330465,330466,330467]],
+              [[330468,330469,330470,330471]],
+              [[330472,330473,330474,330475]],
+              [[330476,330477,330478,330479]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191009810": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "26",
+        "hdb_street": "JLN BERSEH",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "120",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "120",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[349230,349231,349232,349233]],
+              [[349234,349235,349236,349237]],
+              [[349238,349239,349240,349241]],
+              [[349242,349243,349244,349245]],
+              [[349246,349247,349248,349249]],
+              [[349250,349251,349252,349253]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172596785": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "261",
+        "hdb_street": "WATERLOO ST",
+        "hdb_max_floor_lvl": "5",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "15.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[355110,355111,355112,355113]],
+              [[355114,355115,355116,355117]],
+              [[355118,355119,355120,355121]],
+              [[355122,355123,355124,355125]],
+              [[355126,355127,355128,355129]],
+              [[355130,355131,355132,355133]],
+              [[355134,355135,355136,355137]],
+              [[355138,355139,355140,355141]],
+              [[355142,355143,355144,355145]],
+              [[355146,355147,355148,355149]],
+              [[355150,355151,355152,355153]],
+              [[355154,355155,355156,355157]],
+              [[355158,355159,355160,355161]],
+              [[355162,355163,355164,355165]],
+              [[355166,355167,355168,355169,355170,355171,355172,355173,355174,355175,355176,355177,355178,355179]],
+              [[355180,355181,355182,355183,355184,355185,355186,355187,355188,355189,355190,355191,355192,355193]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/82487564": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "262",
+        "hdb_street": "WATERLOO ST",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "78",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "78",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[357282,357283,357284,357285]],
+              [[357286,357287,357288,357289]],
+              [[357290,357291,357292,357293]],
+              [[357294,357295,357296,357297]],
+              [[357298,357299,357300,357301]],
+              [[357302,357303,357304,357305,357306]],
+              [[357307,357308,357309,357310,357311]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/82487563": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "263",
+        "hdb_street": "WATERLOO ST",
+        "hdb_max_floor_lvl": "21",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "124",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "120",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "60.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[359076,359077,359078,359079]],
+              [[359080,359081,359082,359083]],
+              [[359084,359085,359086,359087]],
+              [[359088,359089,359090,359091]],
+              [[359092,359093,359094,359095]],
+              [[359096,359097,359098,359099,359100]],
+              [[359101,359102,359103,359104,359105]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/82487566": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "264",
+        "hdb_street": "WATERLOO ST",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "127",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "124",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "3",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[360288,360289,360290,360291]],
+              [[360292,360293,360294,360295]],
+              [[360296,360297,360298,360299]],
+              [[360300,360301,360302,360303]],
+              [[360304,360305,360306,360307]],
+              [[360308,360309,360310,360311]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/48045893": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "269C",
+        "hdb_street": "QUEEN ST",
+        "hdb_max_floor_lvl": "7",
+        "hdb_year_completed": "1983",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "31",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "26",
+        "hdb_4room_sold": "4",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "20.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[373530,373531,373532,373533]],
+              [[373534,373535,373536,373537]],
+              [[373538,373539,373540,373541]],
+              [[373542,373543,373544,373545]],
+              [[373546,373547,373548,373549]],
+              [[373550,373551,373552,373553]],
+              [[373554,373555,373556,373557]],
+              [[373558,373559,373560,373561]],
+              [[373562,373563,373564,373565]],
+              [[373566,373567,373568,373569]],
+              [[373570,373571,373572,373573]],
+              [[373574,373575,373576,373577]],
+              [[373578,373579,373580,373581]],
+              [[373582,373583,373584,373585]],
+              [[373586,373587,373588,373589,373590,373591,373592,373593,373594,373595,373596,373597,373598,373599]],
+              [[373600,373601,373602,373603,373604,373605,373606,373607,373608,373609,373610,373611,373612,373613]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/48045897": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "269A",
+        "hdb_street": "QUEEN ST",
+        "hdb_max_floor_lvl": "7",
+        "hdb_year_completed": "1983",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "32",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "28",
+        "hdb_4room_sold": "4",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "20.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[372174,372175,372176,372177]],
+              [[372178,372179,372180,372181]],
+              [[372182,372183,372184,372185]],
+              [[372186,372187,372188,372189]],
+              [[372190,372191,372192,372193]],
+              [[372194,372195,372196,372197]],
+              [[372198,372199,372200,372201]],
+              [[372202,372203,372204,372205,372206,372207,372208]],
+              [[372209,372210,372211,372212,372213,372214,372215]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/396336406": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "27",
+        "hdb_street": "JLN BERSEH",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "3",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "3",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[374046,374047,374048,374049]],
+              [[374050,374051,374052,374053]],
+              [[374054,374055,374056,374057]],
+              [[374058,374059,374060,374061]],
+              [[374062,374063,374064,374065]],
+              [[374066,374067,374068,374069]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/48045891": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "271",
+        "hdb_street": "QUEEN ST",
+        "hdb_max_floor_lvl": "20",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "188",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "184",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "57.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[377214,377215,377216,377217]],
+              [[377218,377219,377220,377221]],
+              [[377222,377223,377224,377225]],
+              [[377226,377227,377228,377229]],
+              [[377230,377231,377232,377233]],
+              [[377234,377235,377236,377237]],
+              [[377238,377239,377240,377241]],
+              [[377242,377243,377244,377245]],
+              [[377246,377247,377248,377249]],
+              [[377250,377251,377252,377253,377254,377255,377256,377257,377258]],
+              [[377259,377260,377261,377262,377263,377264,377265,377266,377267]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191009811": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "28A",
+        "hdb_street": "KELANTAN RD",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2003",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[400578,400579,400580,400581]],
+              [[400582,400583,400584,400585]],
+              [[400586,400587,400588,400589]],
+              [[400590,400591,400592,400593]],
+              [[400594,400595,400596,400597]],
+              [[400598,400599,400600,400601]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191009812": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "29",
+        "hdb_street": "KELANTAN RD",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1977",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "133",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "126",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "7",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[420144,420145,420146,420147]],
+              [[420148,420149,420150,420151]],
+              [[420152,420153,420154,420155]],
+              [[420156,420157,420158,420159]],
+              [[420160,420161,420162,420163]],
+              [[420164,420165,420166,420167]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/127348514": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "3",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1966",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "270",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "270",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[443898,443899,443900,443901]],
+              [[443902,443903,443904,443905]],
+              [[443906,443907,443908,443909]],
+              [[443910,443911,443912,443913]],
+              [[443914,443915,443916,443917]],
+              [[443918,443919,443920,443921]],
+              [[443922,443923,443924,443925,443926,443927]],
+              [[443928,443929,443930,443931,443932,443933]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191009813": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "30",
+        "hdb_street": "KELANTAN RD",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1980",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "138",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "137",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[447210,447211,447212,447213]],
+              [[447214,447215,447216,447217]],
+              [[447218,447219,447220,447221]],
+              [[447222,447223,447224,447225]],
+              [[447226,447227,447228,447229]],
+              [[447230,447231,447232,447233]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/164167566": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "31",
+        "hdb_street": "KELANTAN LANE",
+        "hdb_max_floor_lvl": "5",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "15.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[476202,476203,476204,476205]],
+              [[476206,476207,476208,476209]],
+              [[476210,476211,476212,476213]],
+              [[476214,476215,476216,476217]],
+              [[476218,476219,476220,476221]],
+              [[476222,476223,476224,476225]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47298674": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "32",
+        "hdb_street": "NEW MKT RD",
+        "hdb_max_floor_lvl": "9",
+        "hdb_year_completed": "1968",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "127",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "85",
+        "hdb_3room_sold": "38",
+        "hdb_4room_sold": "3",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "1",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "26.5",
+        "osm_addr:postcode": "050032",
+        "osm_height": "0",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[516192,516193,516194,516195]],
+              [[516196,516197,516198,516199]],
+              [[516200,516201,516202,516203]],
+              [[516204,516205,516206,516207]],
+              [[516208,516209,516210,516211]],
+              [[516212,516213,516214,516215]],
+              [[516216,516217,516218,516219]],
+              [[516220,516221,516222,516223]],
+              [[516224,516225,516226,516227,516228,516229,516230,516231]],
+              [[516232,516233,516234,516235,516236,516237,516238,516239]]
+            ]
+          ]
+        }
+      ]
+    },
+    "relation/2304422": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "33",
+        "hdb_street": "PK CRES",
+        "hdb_max_floor_lvl": "6",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "18.1",
+        "osm_addr:postcode": "050033",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[542250,542251,542252,542253]],
+              [[542254,542255,542256,542257]],
+              [[542258,542259,542260,542261]],
+              [[542262,542263,542264,542265]],
+              [[542266,542267,542268,542269]],
+              [[542270,542271,542272,542273]],
+              [[542274,542275,542276,542277]],
+              [[542278,542279,542280,542281]],
+              [[542282,542283,542284,542285]],
+              [[542286,542287,542288,542289]],
+              [[542290,542291,542292,542293]],
+              [[542294,542295,542296,542297]],
+              [[542298,542299,542300,542301]],
+              [[542302,542303,542304,542305]],
+              [[542306,542307,542308,542309]],
+              [[542310,542311,542312,542313]],
+              [[542314,542315,542316,542317]],
+              [[542318,542319,542320,542321]],
+              [[542322,542323,542324,542325]],
+              [[542326,542327,542328,542329]],
+              [[542330,542331,542332,542333]],
+              [[542334,542335,542336,542337]],
+              [[542338,542339,542340,542341]],
+              [[542342,542343,542344,542345]],
+              [[542346,542347,542348,542349,542350,542351,542352,542353,542354,542355,542356,542357,542358,542359,542360,542361,542362,542363,542364,542365],[542366,542367,542368,542369]],
+              [[542370,542371,542372,542373,542374,542375,542376,542377,542378,542379,542380,542381,542382,542383,542384,542385,542386,542387,542388,542389],[542390,542391,542392,542393]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171985734": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "333",
+        "hdb_street": "KRETA AYER RD",
+        "hdb_max_floor_lvl": "19",
+        "hdb_year_completed": "1981",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "126",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "126",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "54.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[551718,551719,551720,551721]],
+              [[551722,551723,551724,551725]],
+              [[551726,551727,551728,551729]],
+              [[551730,551731,551732,551733]],
+              [[551734,551735,551736,551737]],
+              [[551738,551739,551740,551741]],
+              [[551742,551743,551744,551745]],
+              [[551746,551747,551748,551749]],
+              [[551750,551751,551752,551753]],
+              [[551754,551755,551756,551757]],
+              [[551758,551759,551760,551761]],
+              [[551762,551763,551764,551765]],
+              [[551766,551767,551768,551769]],
+              [[551770,551771,551772,551773]],
+              [[551774,551775,551776,551777]],
+              [[551778,551779,551780,551781,551782,551783,551784,551785,551786,551787,551788,551789,551790,551791,551792]],
+              [[551793,551794,551795,551796,551797,551798,551799,551800,551801,551802,551803,551804,551805,551806,551807]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171985736": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "334",
+        "hdb_street": "KRETA AYER RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1980",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "88",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "88",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": "080334",
+        "osm_height": "0",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[554880,554881,554882,554883]],
+              [[554884,554885,554886,554887]],
+              [[554888,554889,554890,554891]],
+              [[554892,554893,554894,554895]],
+              [[554896,554897,554898,554899]],
+              [[554900,554901,554902,554903]],
+              [[554904,554905,554906,554907,554908,554909]],
+              [[554910,554911,554912,554913,554914,554915]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47298646": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "335B",
+        "hdb_street": "SMITH ST",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1983",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "131",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "131",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": "052335",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[558864,558865,558866,558867]],
+              [[558868,558869,558870,558871]],
+              [[558872,558873,558874,558875]],
+              [[558876,558877,558878,558879]],
+              [[558880,558881,558882,558883]],
+              [[558884,558885,558886,558887]],
+              [[558888,558889,558890,558891]],
+              [[558892,558893,558894,558895]],
+              [[558896,558897,558898,558899]],
+              [[558900,558901,558902,558903]],
+              [[558904,558905,558906,558907]],
+              [[558908,558909,558910,558911]],
+              [[558912,558913,558914,558915]],
+              [[558916,558917,558918,558919,558920,558921,558922,558923,558924,558925,558926,558927,558928]],
+              [[558929,558930,558931,558932,558933,558934,558935,558936,558937,558938,558939,558940,558941]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47298610": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "336",
+        "hdb_street": "SMITH ST",
+        "hdb_max_floor_lvl": "8",
+        "hdb_year_completed": "1986",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "23.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[559998,559999,560000,560001]],
+              [[560002,560003,560004,560005]],
+              [[560006,560007,560008,560009]],
+              [[560010,560011,560012,560013]],
+              [[560014,560015,560016,560017]],
+              [[560018,560019,560020,560021,560022]],
+              [[560023,560024,560025,560026,560027]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172769211": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "34",
+        "hdb_street": "UPP CROSS ST",
+        "hdb_max_floor_lvl": "20",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "315",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "310",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "5",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "57.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[569826,569827,569828,569829]],
+              [[569830,569831,569832,569833]],
+              [[569834,569835,569836,569837]],
+              [[569838,569839,569840,569841]],
+              [[569842,569843,569844,569845]],
+              [[569846,569847,569848,569849]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022221": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "4",
+        "hdb_street": "JLN MINYAK",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1964",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "156",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "144",
+        "hdb_3room_rental": "12",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[614088,614089,614090,614091]],
+              [[614092,614093,614094,614095]],
+              [[614096,614097,614098,614099]],
+              [[614100,614101,614102,614103]],
+              [[614104,614105,614106,614107]],
+              [[614108,614109,614110,614111]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171985737": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "4",
+        "hdb_street": "SAGO LANE",
+        "hdb_max_floor_lvl": "21",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "250",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "248",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "2",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "60.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[614484,614485,614486,614487]],
+              [[614488,614489,614490,614491]],
+              [[614492,614493,614494,614495]],
+              [[614496,614497,614498,614499]],
+              [[614500,614501,614502,614503]],
+              [[614504,614505,614506,614507]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171985735": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "5",
+        "hdb_street": "BANDA ST",
+        "hdb_max_floor_lvl": "21",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "430",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "430",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "60.1",
+        "osm_addr:postcode": "050005",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[790380,790381,790382,790383]],
+              [[790384,790385,790386,790387]],
+              [[790388,790389,790390,790391]],
+              [[790392,790393,790394,790395]],
+              [[790396,790397,790398,790399]],
+              [[790400,790401,790402,790403,790404]],
+              [[790405,790406,790407,790408,790409]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022210": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "5",
+        "hdb_street": "JLN MINYAK",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1964",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "143",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "132",
+        "hdb_3room_rental": "11",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[791322,791323,791324,791325]],
+              [[791326,791327,791328,791329]],
+              [[791330,791331,791332,791333]],
+              [[791334,791335,791336,791337]],
+              [[791338,791339,791340,791341]],
+              [[791342,791343,791344,791345]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022209": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "51",
+        "hdb_street": "CHIN SWEE RD",
+        "hdb_max_floor_lvl": "20",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "328",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "328",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "57.3",
+        "osm_addr:postcode": "160051",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[814032,814033,814034,814035]],
+              [[814036,814037,814038,814039]],
+              [[814040,814041,814042,814043]],
+              [[814044,814045,814046,814047]],
+              [[814048,814049,814050,814051]],
+              [[814052,814053,814054,814055]],
+              [[814056,814057,814058,814059,814060,814061]],
+              [[814062,814063,814064,814065,814066,814067]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172021053": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "52",
+        "hdb_street": "CHIN SWEE RD",
+        "hdb_max_floor_lvl": "20",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "272",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "271",
+        "hdb_2room_rental": "1",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "57.3",
+        "osm_addr:postcode": "160052",
+        "osm_height": "0",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[832404,832405,832406,832407]],
+              [[832408,832409,832410,832411]],
+              [[832412,832413,832414,832415]],
+              [[832416,832417,832418,832419]],
+              [[832420,832421,832422,832423]],
+              [[832424,832425,832426,832427]],
+              [[832428,832429,832430,832431]],
+              [[832432,832433,832434,832435]],
+              [[832436,832437,832438,832439]],
+              [[832440,832441,832442,832443]],
+              [[832444,832445,832446,832447]],
+              [[832448,832449,832450,832451]],
+              [[832452,832453,832454,832455]],
+              [[832456,832457,832458,832459]],
+              [[832460,832461,832462,832463]],
+              [[832464,832465,832466,832467]],
+              [[832468,832469,832470,832471]],
+              [[832472,832473,832474,832475]],
+              [[832476,832477,832478,832479,832480,832481,832482,832483,832484,832485,832486,832487,832488,832489,832490,832491,832492,832493]],
+              [[832494,832495,832496,832497,832498,832499,832500,832501,832502,832503,832504,832505,832506,832507,832508,832509,832510,832511]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022208": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "53",
+        "hdb_street": "CHIN SWEE RD",
+        "hdb_max_floor_lvl": "26",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "96",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "74.1",
+        "osm_addr:postcode": "160053",
+        "osm_height": "0",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[845142,845143,845144,845145]],
+              [[845146,845147,845148,845149]],
+              [[845150,845151,845152,845153]],
+              [[845154,845155,845156,845157]],
+              [[845158,845159,845160,845161]],
+              [[845162,845163,845164,845165]],
+              [[845166,845167,845168,845169]],
+              [[845170,845171,845172,845173]],
+              [[845174,845175,845176,845177]],
+              [[845178,845179,845180,845181]],
+              [[845182,845183,845184,845185]],
+              [[845186,845187,845188,845189]],
+              [[845190,845191,845192,845193,845194,845195,845196,845197,845198,845199,845200,845201]],
+              [[845202,845203,845204,845205,845206,845207,845208,845209,845210,845211,845212,845213]]
+            ]
+          ]
+        }
+      ]
+    },
+    "relation/2304417": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "536",
+        "hdb_street": "UPP CROSS ST",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "122",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "114",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "8",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[853692,853693,853694,853695]],
+              [[853696,853697,853698,853699]],
+              [[853700,853701,853702,853703]],
+              [[853704,853705,853706,853707]],
+              [[853708,853709,853710,853711]],
+              [[853712,853713,853714,853715]],
+              [[853716,853717,853718,853719]],
+              [[853720,853721,853722,853723]],
+              [[853724,853725,853726,853727]],
+              [[853728,853729,853730,853731]],
+              [[853732,853733,853734,853735]],
+              [[853736,853737,853738,853739]],
+              [[853740,853741,853742,853743]],
+              [[853744,853745,853746,853747]],
+              [[853748,853749,853750,853751]],
+              [[853752,853753,853754,853755]],
+              [[853756,853757,853758,853759]],
+              [[853760,853761,853762,853763]],
+              [[853764,853765,853766,853767]],
+              [[853768,853769,853770,853771]],
+              [[853772,853773,853774,853775]],
+              [[853776,853777,853778,853779]],
+              [[853780,853781,853782,853783]],
+              [[853784,853785,853786,853787]],
+              [[853788,853789,853790,853791]],
+              [[853792,853793,853794,853795]],
+              [[853796,853797,853798,853799]],
+              [[853800,853801,853802,853803]],
+              [[853804,853805,853806,853807]],
+              [[853808,853809,853810,853811]],
+              [[853812,853813,853814,853815,853816,853817,853818,853819,853820,853821,853822,853823,853824,853825,853826,853827,853828,853829],[853830,853831,853832,853833,853834,853835],[853836,853837,853838,853839,853840,853841]],
+              [[853842,853843,853844,853845,853846,853847,853848,853849,853850,853851,853852,853853,853854,853855,853856,853857,853858,853859],[853860,853861,853862,853863,853864,853865],[853866,853867,853868,853869,853870,853871]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/125836967": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "538",
+        "hdb_street": "UPP CROSS ST",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1978",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "126",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "122",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[855618,855619,855620,855621]],
+              [[855622,855623,855624,855625]],
+              [[855626,855627,855628,855629]],
+              [[855630,855631,855632,855633]],
+              [[855634,855635,855636,855637]],
+              [[855638,855639,855640,855641]],
+              [[855642,855643,855644,855645]],
+              [[855646,855647,855648,855649]],
+              [[855650,855651,855652,855653]],
+              [[855654,855655,855656,855657]],
+              [[855658,855659,855660,855661,855662,855663,855664,855665,855666,855667]],
+              [[855668,855669,855670,855671,855672,855673,855674,855675,855676,855677]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172021024": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "54",
+        "hdb_street": "CHIN SWEE RD",
+        "hdb_max_floor_lvl": "7",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "20.9",
+        "osm_addr:postcode": "160054",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[856926,856927,856928,856929]],
+              [[856930,856931,856932,856933]],
+              [[856934,856935,856936,856937]],
+              [[856938,856939,856940,856941]],
+              [[856942,856943,856944,856945]],
+              [[856946,856947,856948,856949]],
+              [[856950,856951,856952,856953]],
+              [[856954,856955,856956,856957]],
+              [[856958,856959,856960,856961,856962,856963,856964,856965]],
+              [[856966,856967,856968,856969,856970,856971,856972,856973]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022216": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6",
+        "hdb_street": "JLN MINYAK",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1964",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "156",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "144",
+        "hdb_3room_rental": "12",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[896814,896815,896816,896817]],
+              [[896818,896819,896820,896821]],
+              [[896822,896823,896824,896825]],
+              [[896826,896827,896828,896829]],
+              [[896830,896831,896832,896833]],
+              [[896834,896835,896836,896837]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171975666": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6",
+        "hdb_street": "TG PAGAR PLAZA",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "2014",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": "081006",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[897120,897121,897122,897123]],
+              [[897124,897125,897126,897127]],
+              [[897128,897129,897130,897131]],
+              [[897132,897133,897134,897135]],
+              [[897136,897137,897138,897139]],
+              [[897140,897141,897142,897143]],
+              [[897144,897145,897146,897147]],
+              [[897148,897149,897150,897151,897152,897153,897154]],
+              [[897155,897156,897157,897158,897159,897160,897161]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/176326993": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "632",
+        "hdb_street": "VEERASAMY RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1984",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "9",
+        "hdb_4room_sold": "73",
+        "hdb_5room_sold": "14",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[938592,938593,938594,938595]],
+              [[938596,938597,938598,938599]],
+              [[938600,938601,938602,938603]],
+              [[938604,938605,938606,938607]],
+              [[938608,938609,938610,938611]],
+              [[938612,938613,938614,938615,938616]],
+              [[938617,938618,938619,938620,938621]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/176326995": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "634",
+        "hdb_street": "VEERASAMY RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1984",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "12",
+        "hdb_4room_sold": "70",
+        "hdb_5room_sold": "14",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[940584,940585,940586,940587]],
+              [[940588,940589,940590,940591]],
+              [[940592,940593,940594,940595]],
+              [[940596,940597,940598,940599]],
+              [[940600,940601,940602,940603]],
+              [[940604,940605,940606,940607]],
+              [[940608,940609,940610,940611]],
+              [[940612,940613,940614,940615]],
+              [[940616,940617,940618,940619]],
+              [[940620,940621,940622,940623,940624,940625,940626,940627,940628]],
+              [[940629,940630,940631,940632,940633,940634,940635,940636,940637]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/176326992": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "636",
+        "hdb_street": "VEERASAMY RD",
+        "hdb_max_floor_lvl": "8",
+        "hdb_year_completed": "1984",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "21",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "21",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "23.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[942738,942739,942740,942741]],
+              [[942742,942743,942744,942745]],
+              [[942746,942747,942748,942749]],
+              [[942750,942751,942752,942753]],
+              [[942754,942755,942756,942757]],
+              [[942758,942759,942760,942761]],
+              [[942762,942763,942764,942765]],
+              [[942766,942767,942768,942769]],
+              [[942770,942771,942772,942773]],
+              [[942774,942775,942776,942777]],
+              [[942778,942779,942780,942781]],
+              [[942782,942783,942784,942785,942786,942787,942788,942789,942790,942791,942792]],
+              [[942793,942794,942795,942796,942797,942798,942799,942800,942801,942802,942803]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/164172535": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "637",
+        "hdb_street": "VEERASAMY RD",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1984",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "107",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "62",
+        "hdb_4room_sold": "44",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "1",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[945054,945055,945056,945057]],
+              [[945058,945059,945060,945061]],
+              [[945062,945063,945064,945065]],
+              [[945066,945067,945068,945069]],
+              [[945070,945071,945072,945073]],
+              [[945074,945075,945076,945077]],
+              [[945078,945079,945080,945081]],
+              [[945082,945083,945084,945085]],
+              [[945086,945087,945088,945089]],
+              [[945090,945091,945092,945093,945094,945095,945096,945097,945098]],
+              [[945099,945100,945101,945102,945103,945104,945105,945106,945107]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/164172533": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "638",
+        "hdb_street": "VEERASAMY RD",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1985",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[946632,946633,946634,946635]],
+              [[946636,946637,946638,946639]],
+              [[946640,946641,946642,946643]],
+              [[946644,946645,946646,946647]],
+              [[946648,946649,946650,946651]],
+              [[946652,946653,946654,946655]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436574": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "639",
+        "hdb_street": "ROWELL RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1982",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "9",
+        "hdb_4room_sold": "73",
+        "hdb_5room_sold": "14",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[948042,948043,948044,948045]],
+              [[948046,948047,948048,948049]],
+              [[948050,948051,948052,948053]],
+              [[948054,948055,948056,948057]],
+              [[948058,948059,948060,948061]],
+              [[948062,948063,948064,948065,948066]],
+              [[948067,948068,948069,948070,948071]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436575": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "640",
+        "hdb_street": "ROWELL RD",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1982",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "167",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "147",
+        "hdb_4room_sold": "18",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "2",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[950172,950173,950174,950175]],
+              [[950176,950177,950178,950179]],
+              [[950180,950181,950182,950183]],
+              [[950184,950185,950186,950187]],
+              [[950188,950189,950190,950191]],
+              [[950192,950193,950194,950195]],
+              [[950196,950197,950198,950199]],
+              [[950200,950201,950202,950203]],
+              [[950204,950205,950206,950207]],
+              [[950208,950209,950210,950211]],
+              [[950212,950213,950214,950215,950216,950217,950218,950219,950220,950221]],
+              [[950222,950223,950224,950225,950226,950227,950228,950229,950230,950231]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436576": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "641",
+        "hdb_street": "ROWELL RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1982",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "9",
+        "hdb_4room_sold": "73",
+        "hdb_5room_sold": "14",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[951186,951187,951188,951189]],
+              [[951190,951191,951192,951193]],
+              [[951194,951195,951196,951197]],
+              [[951198,951199,951200,951201]],
+              [[951202,951203,951204,951205]],
+              [[951206,951207,951208,951209,951210]],
+              [[951211,951212,951213,951214,951215]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436577": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "642",
+        "hdb_street": "ROWELL RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1982",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "88",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "74",
+        "hdb_5room_sold": "14",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": "200642",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[952386,952387,952388,952389]],
+              [[952390,952391,952392,952393]],
+              [[952394,952395,952396,952397]],
+              [[952398,952399,952400,952401]],
+              [[952402,952403,952404,952405]],
+              [[952406,952407,952408,952409]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436578": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "661",
+        "hdb_street": "BUFFALO RD",
+        "hdb_max_floor_lvl": "23",
+        "hdb_year_completed": "1981",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "127",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "127",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "65.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[970950,970951,970952,970953]],
+              [[970954,970955,970956,970957]],
+              [[970958,970959,970960,970961]],
+              [[970962,970963,970964,970965]],
+              [[970966,970967,970968,970969]],
+              [[970970,970971,970972,970973]],
+              [[970974,970975,970976,970977]],
+              [[970978,970979,970980,970981]],
+              [[970982,970983,970984,970985]],
+              [[970986,970987,970988,970989]],
+              [[970990,970991,970992,970993]],
+              [[970994,970995,970996,970997]],
+              [[970998,970999,971000,971001]],
+              [[971002,971003,971004,971005]],
+              [[971006,971007,971008,971009]],
+              [[971010,971011,971012,971013]],
+              [[971014,971015,971016,971017]],
+              [[971018,971019,971020,971021]],
+              [[971022,971023,971024,971025]],
+              [[971026,971027,971028,971029]],
+              [[971030,971031,971032,971033]],
+              [[971034,971035,971036,971037]],
+              [[971038,971039,971040,971041]],
+              [[971042,971043,971044,971045]],
+              [[971046,971047,971048,971049]],
+              [[971050,971051,971052,971053]],
+              [[971054,971055,971056,971057]],
+              [[971058,971059,971060,971061]],
+              [[971062,971063,971064,971065,971066,971067,971068,971069,971070,971071,971072,971073,971074,971075,971076,971077,971078,971079,971080,971081,971082,971083,971084,971085,971086,971087,971088,971089]],
+              [[971090,971091,971092,971093,971094,971095,971096,971097,971098,971099,971100,971101,971102,971103,971104,971105,971106,971107,971108,971109,971110,971111,971112,971113,971114,971115,971116,971117]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178437073": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "662",
+        "hdb_street": "BUFFALO RD",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1981",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "152",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "12",
+        "hdb_4room_sold": "140",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[973818,973819,973820,973821]],
+              [[973822,973823,973824,973825]],
+              [[973826,973827,973828,973829]],
+              [[973830,973831,973832,973833]],
+              [[973834,973835,973836,973837]],
+              [[973838,973839,973840,973841]],
+              [[973842,973843,973844,973845]],
+              [[973846,973847,973848,973849]],
+              [[973850,973851,973852,973853]],
+              [[973854,973855,973856,973857]],
+              [[973858,973859,973860,973861]],
+              [[973862,973863,973864,973865]],
+              [[973866,973867,973868,973869,973870,973871,973872,973873,973874,973875,973876,973877]],
+              [[973878,973879,973880,973881,973882,973883,973884,973885,973886,973887,973888,973889]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436580": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "663",
+        "hdb_street": "BUFFALO RD",
+        "hdb_max_floor_lvl": "21",
+        "hdb_year_completed": "1981",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "115",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "115",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "60.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[977130,977131,977132,977133]],
+              [[977134,977135,977136,977137]],
+              [[977138,977139,977140,977141]],
+              [[977142,977143,977144,977145]],
+              [[977146,977147,977148,977149]],
+              [[977150,977151,977152,977153]],
+              [[977154,977155,977156,977157]],
+              [[977158,977159,977160,977161]],
+              [[977162,977163,977164,977165]],
+              [[977166,977167,977168,977169]],
+              [[977170,977171,977172,977173]],
+              [[977174,977175,977176,977177]],
+              [[977178,977179,977180,977181]],
+              [[977182,977183,977184,977185]],
+              [[977186,977187,977188,977189]],
+              [[977190,977191,977192,977193]],
+              [[977194,977195,977196,977197]],
+              [[977198,977199,977200,977201,977202,977203,977204,977205,977206,977207,977208,977209,977210,977211,977212,977213,977214]],
+              [[977215,977216,977217,977218,977219,977220,977221,977222,977223,977224,977225,977226,977227,977228,977229,977230,977231]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436581": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "664",
+        "hdb_street": "BUFFALO RD",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1981",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "16",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "16",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[979380,979381,979382,979383]],
+              [[979384,979385,979386,979387]],
+              [[979388,979389,979390,979391]],
+              [[979392,979393,979394,979395]],
+              [[979396,979397,979398,979399]],
+              [[979400,979401,979402,979403]],
+              [[979404,979405,979406,979407]],
+              [[979408,979409,979410,979411]],
+              [[979412,979413,979414,979415,979416,979417,979418,979419]],
+              [[979420,979421,979422,979423,979424,979425,979426,979427]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47198835": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "665",
+        "hdb_street": "BUFFALO RD",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1980",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": "10",
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[981198,981199,981200,981201]],
+              [[981202,981203,981204,981205]],
+              [[981206,981207,981208,981209]],
+              [[981210,981211,981212,981213]],
+              [[981214,981215,981216,981217]],
+              [[981218,981219,981220,981221]],
+              [[981222,981223,981224,981225]],
+              [[981226,981227,981228,981229]],
+              [[981230,981231,981232,981233]],
+              [[981234,981235,981236,981237]],
+              [[981238,981239,981240,981241]],
+              [[981242,981243,981244,981245]],
+              [[981246,981247,981248,981249]],
+              [[981250,981251,981252,981253]],
+              [[981254,981255,981256,981257]],
+              [[981258,981259,981260,981261]],
+              [[981262,981263,981264,981265]],
+              [[981266,981267,981268,981269]],
+              [[981270,981271,981272,981273]],
+              [[981274,981275,981276,981277]],
+              [[981278,981279,981280,981281]],
+              [[981282,981283,981284,981285]],
+              [[981286,981287,981288,981289]],
+              [[981290,981291,981292,981293]],
+              [[981294,981295,981296,981297]],
+              [[981298,981299,981300,981301]],
+              [[981302,981303,981304,981305]],
+              [[981306,981307,981308,981309]],
+              [[981310,981311,981312,981313]],
+              [[981314,981315,981316,981317]],
+              [[981318,981319,981320,981321,981322,981323,981324,981325,981326,981327,981328,981329,981330,981331,981332,981333,981334,981335,981336,981337,981338,981339,981340,981341,981342,981343,981344,981345,981346,981347]],
+              [[981348,981349,981350,981351,981352,981353,981354,981355,981356,981357,981358,981359,981360,981361,981362,981363,981364,981365,981366,981367,981368,981369,981370,981371,981372,981373,981374,981375,981376,981377]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/178436582": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "668",
+        "hdb_street": "CHANDER RD",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1984",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "120",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "90",
+        "hdb_4room_sold": "30",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[993336,993337,993338,993339]],
+              [[993340,993341,993342,993343]],
+              [[993344,993345,993346,993347]],
+              [[993348,993349,993350,993351]],
+              [[993352,993353,993354,993355]],
+              [[993356,993357,993358,993359]],
+              [[993360,993361,993362,993363]],
+              [[993364,993365,993366,993367]],
+              [[993368,993369,993370,993371]],
+              [[993372,993373,993374,993375]],
+              [[993376,993377,993378,993379]],
+              [[993380,993381,993382,993383]],
+              [[993384,993385,993386,993387]],
+              [[993388,993389,993390,993391]],
+              [[993392,993393,993394,993395]],
+              [[993396,993397,993398,993399]],
+              [[993400,993401,993402,993403,993404,993405,993406,993407,993408,993409,993410,993411,993412,993413,993414,993415]],
+              [[993416,993417,993418,993419,993420,993421,993422,993423,993424,993425,993426,993427,993428,993429,993430,993431]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/184914352": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "671",
+        "hdb_street": "KLANG LANE",
+        "hdb_max_floor_lvl": "5",
+        "hdb_year_completed": "2000",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "15.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[999702,999703,999704,999705]],
+              [[999706,999707,999708,999709]],
+              [[999710,999711,999712,999713]],
+              [[999714,999715,999716,999717]],
+              [[999718,999719,999720,999721]],
+              [[999722,999723,999724,999725]],
+              [[999726,999727,999728,999729]],
+              [[999730,999731,999732,999733]],
+              [[999734,999735,999736,999737,999738,999739,999740,999741]],
+              [[999742,999743,999744,999745,999746,999747,999748,999749]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/184914354": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "671A",
+        "hdb_street": "KLANG LANE",
+        "hdb_max_floor_lvl": "17",
+        "hdb_year_completed": "2000",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "78",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "69",
+        "hdb_5room_sold": "9",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "48.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1000668,1000669,1000670,1000671]],
+              [[1000672,1000673,1000674,1000675]],
+              [[1000676,1000677,1000678,1000679]],
+              [[1000680,1000681,1000682,1000683]],
+              [[1000684,1000685,1000686,1000687]],
+              [[1000688,1000689,1000690,1000691]],
+              [[1000692,1000693,1000694,1000695]],
+              [[1000696,1000697,1000698,1000699]],
+              [[1000700,1000701,1000702,1000703]],
+              [[1000704,1000705,1000706,1000707,1000708,1000709,1000710,1000711,1000712]],
+              [[1000713,1000714,1000715,1000716,1000717,1000718,1000719,1000720,1000721]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/184914355": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "671B",
+        "hdb_street": "KLANG LANE",
+        "hdb_max_floor_lvl": "17",
+        "hdb_year_completed": "2000",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "78",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "69",
+        "hdb_5room_sold": "9",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "48.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1001484,1001485,1001486,1001487]],
+              [[1001488,1001489,1001490,1001491]],
+              [[1001492,1001493,1001494,1001495]],
+              [[1001496,1001497,1001498,1001499]],
+              [[1001500,1001501,1001502,1001503]],
+              [[1001504,1001505,1001506,1001507]],
+              [[1001508,1001509,1001510,1001511]],
+              [[1001512,1001513,1001514,1001515]],
+              [[1001516,1001517,1001518,1001519]],
+              [[1001520,1001521,1001522,1001523,1001524,1001525,1001526,1001527,1001528]],
+              [[1001529,1001530,1001531,1001532,1001533,1001534,1001535,1001536,1001537]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/184914356": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "672A",
+        "hdb_street": "KLANG LANE",
+        "hdb_max_floor_lvl": "19",
+        "hdb_year_completed": "2000",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "93",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "36",
+        "hdb_5room_sold": "57",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "54.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1002828,1002829,1002830,1002831]],
+              [[1002832,1002833,1002834,1002835]],
+              [[1002836,1002837,1002838,1002839]],
+              [[1002840,1002841,1002842,1002843]],
+              [[1002844,1002845,1002846,1002847]],
+              [[1002848,1002849,1002850,1002851]],
+              [[1002852,1002853,1002854,1002855,1002856,1002857]],
+              [[1002858,1002859,1002860,1002861,1002862,1002863]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/184914357": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "672B",
+        "hdb_street": "KLANG LANE",
+        "hdb_max_floor_lvl": "19",
+        "hdb_year_completed": "2000",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "93",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "36",
+        "hdb_5room_sold": "57",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "54.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1003422,1003423,1003424,1003425]],
+              [[1003426,1003427,1003428,1003429]],
+              [[1003430,1003431,1003432,1003433]],
+              [[1003434,1003435,1003436,1003437]],
+              [[1003438,1003439,1003440,1003441]],
+              [[1003442,1003443,1003444,1003445]],
+              [[1003446,1003447,1003448,1003449,1003450,1003451]],
+              [[1003452,1003453,1003454,1003455,1003456,1003457]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172814599": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "7",
+        "hdb_street": "TG PAGAR PLAZA",
+        "hdb_max_floor_lvl": "27",
+        "hdb_year_completed": "1979",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "96",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "76.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1043484,1043485,1043486,1043487]],
+              [[1043488,1043489,1043490,1043491]],
+              [[1043492,1043493,1043494,1043495]],
+              [[1043496,1043497,1043498,1043499]],
+              [[1043500,1043501,1043502,1043503]],
+              [[1043504,1043505,1043506,1043507]],
+              [[1043508,1043509,1043510,1043511]],
+              [[1043512,1043513,1043514,1043515]],
+              [[1043516,1043517,1043518,1043519]],
+              [[1043520,1043521,1043522,1043523]],
+              [[1043524,1043525,1043526,1043527]],
+              [[1043528,1043529,1043530,1043531]],
+              [[1043532,1043533,1043534,1043535]],
+              [[1043536,1043537,1043538,1043539]],
+              [[1043540,1043541,1043542,1043543]],
+              [[1043544,1043545,1043546,1043547]],
+              [[1043548,1043549,1043550,1043551,1043552,1043553,1043554,1043555,1043556,1043557,1043558,1043559,1043560,1043561,1043562,1043563]],
+              [[1043564,1043565,1043566,1043567,1043568,1043569,1043570,1043571,1043572,1043573,1043574,1043575,1043576,1043577,1043578,1043579]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022219": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1970",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "138",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "107",
+        "hdb_3room_sold": "28",
+        "hdb_4room_sold": "2",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "1",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1108368,1108369,1108370,1108371]],
+              [[1108372,1108373,1108374,1108375]],
+              [[1108376,1108377,1108378,1108379]],
+              [[1108380,1108381,1108382,1108383]],
+              [[1108384,1108385,1108386,1108387]],
+              [[1108388,1108389,1108390,1108391]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172596708": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "9A",
+        "hdb_street": "SELEGIE RD",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2003",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1179900,1179901,1179902,1179903]],
+              [[1179904,1179905,1179906,1179907]],
+              [[1179908,1179909,1179910,1179911]],
+              [[1179912,1179913,1179914,1179915]],
+              [[1179916,1179917,1179918,1179919]],
+              [[1179920,1179921,1179922,1179923]],
+              [[1179924,1179925,1179926,1179927]],
+              [[1179928,1179929,1179930,1179931]],
+              [[1179932,1179933,1179934,1179935]],
+              [[1179936,1179937,1179938,1179939]],
+              [[1179940,1179941,1179942,1179943]],
+              [[1179944,1179945,1179946,1179947]],
+              [[1179948,1179949,1179950,1179951,1179952,1179953,1179954,1179955,1179956,1179957,1179958,1179959]],
+              [[1179960,1179961,1179962,1179963,1179964,1179965,1179966,1179967,1179968,1179969,1179970,1179971]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/171979328": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8",
+        "hdb_street": "TG PAGAR PLAZA",
+        "hdb_max_floor_lvl": "27",
+        "hdb_year_completed": "1979",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "96",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "76.9",
+        "osm_addr:postcode": "080008",
+        "osm_height": "88",
+        "osm_addr:housename": "Tanjong Pagar Plaza"
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1108884,1108885,1108886,1108887]],
+              [[1108888,1108889,1108890,1108891]],
+              [[1108892,1108893,1108894,1108895]],
+              [[1108896,1108897,1108898,1108899]],
+              [[1108900,1108901,1108902,1108903]],
+              [[1108904,1108905,1108906,1108907]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172022222": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "9",
+        "hdb_street": "JLN KUKOH",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1970",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "110",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "59",
+        "hdb_3room_sold": "48",
+        "hdb_4room_sold": "2",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "1",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1178220,1178221,1178222,1178223]],
+              [[1178224,1178225,1178226,1178227]],
+              [[1178228,1178229,1178230,1178231]],
+              [[1178232,1178233,1178234,1178235]],
+              [[1178236,1178237,1178238,1178239]],
+              [[1178240,1178241,1178242,1178243]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/172596711": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "9",
+        "hdb_street": "SELEGIE RD",
+        "hdb_max_floor_lvl": "20",
+        "hdb_year_completed": "1963",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "CT",
+        "hdb_total_dwelling_units": "299",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "15",
+        "hdb_3room_sold": "247",
+        "hdb_4room_sold": "37",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "57.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1179000,1179001,1179002,1179003]],
+              [[1179004,1179005,1179006,1179007]],
+              [[1179008,1179009,1179010,1179011]],
+              [[1179012,1179013,1179014,1179015]],
+              [[1179016,1179017,1179018,1179019]],
+              [[1179020,1179021,1179022,1179023]],
+              [[1179024,1179025,1179026,1179027]],
+              [[1179028,1179029,1179030,1179031]],
+              [[1179032,1179033,1179034,1179035]],
+              [[1179036,1179037,1179038,1179039]],
+              [[1179040,1179041,1179042,1179043]],
+              [[1179044,1179045,1179046,1179047]],
+              [[1179048,1179049,1179050,1179051,1179052,1179053,1179054,1179055,1179056,1179057,1179058,1179059]],
+              [[1179060,1179061,1179062,1179063,1179064,1179065,1179066,1179067,1179068,1179069,1179070,1179071]]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

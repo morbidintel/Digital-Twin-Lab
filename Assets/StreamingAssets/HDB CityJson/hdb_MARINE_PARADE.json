@@ -1,0 +1,3512 @@
+{
+  "type": "CityJSON",
+  "version": "1.0",
+  "CityObjects": {
+    "way/173276771": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1596,1597,1598,1599]],
+              [[1600,1601,1602,1603]],
+              [[1604,1605,1606,1607]],
+              [[1608,1609,1610,1611]],
+              [[1612,1613,1614,1615]],
+              [[1616,1617,1618,1619]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276796": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "12",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[74562,74563,74564,74565]],
+              [[74566,74567,74568,74569]],
+              [[74570,74571,74572,74573]],
+              [[74574,74575,74576,74577]],
+              [[74578,74579,74580,74581]],
+              [[74582,74583,74584,74585]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276772": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "12A",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "2004",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[75126,75127,75128,75129]],
+              [[75130,75131,75132,75133]],
+              [[75134,75135,75136,75137]],
+              [[75138,75139,75140,75141]],
+              [[75142,75143,75144,75145]],
+              [[75146,75147,75148,75149]],
+              [[75150,75151,75152,75153]],
+              [[75154,75155,75156,75157]],
+              [[75158,75159,75160,75161]],
+              [[75162,75163,75164,75165]],
+              [[75166,75167,75168,75169]],
+              [[75170,75171,75172,75173,75174,75175,75176,75177,75178,75179,75180]],
+              [[75181,75182,75183,75184,75185,75186,75187,75188,75189,75190,75191]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276776": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "13",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[101862,101863,101864,101865]],
+              [[101866,101867,101868,101869]],
+              [[101870,101871,101872,101873]],
+              [[101874,101875,101876,101877]],
+              [[101878,101879,101880,101881]],
+              [[101882,101883,101884,101885]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276778": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "14",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[122034,122035,122036,122037]],
+              [[122038,122039,122040,122041]],
+              [[122042,122043,122044,122045]],
+              [[122046,122047,122048,122049]],
+              [[122050,122051,122052,122053]],
+              [[122054,122055,122056,122057]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276779": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "15A",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2004",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[136056,136057,136058,136059]],
+              [[136060,136061,136062,136063]],
+              [[136064,136065,136066,136067]],
+              [[136068,136069,136070,136071]],
+              [[136072,136073,136074,136075]],
+              [[136076,136077,136078,136079]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276780": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "16",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "270",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "16",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "254",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[150324,150325,150326,150327]],
+              [[150328,150329,150330,150331]],
+              [[150332,150333,150334,150335]],
+              [[150336,150337,150338,150339]],
+              [[150340,150341,150342,150343]],
+              [[150344,150345,150346,150347]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276784": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "16A",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "2004",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[150534,150535,150536,150537]],
+              [[150538,150539,150540,150541]],
+              [[150542,150543,150544,150545]],
+              [[150546,150547,150548,150549]],
+              [[150550,150551,150552,150553]],
+              [[150554,150555,150556,150557]],
+              [[150558,150559,150560,150561]],
+              [[150562,150563,150564,150565]],
+              [[150566,150567,150568,150569]],
+              [[150570,150571,150572,150573]],
+              [[150574,150575,150576,150577,150578,150579,150580,150581,150582,150583]],
+              [[150584,150585,150586,150587,150588,150589,150590,150591,150592,150593]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276786": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "17A",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2004",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[171546,171547,171548,171549]],
+              [[171550,171551,171552,171553]],
+              [[171554,171555,171556,171557]],
+              [[171558,171559,171560,171561]],
+              [[171562,171563,171564,171565]],
+              [[171566,171567,171568,171569]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276788": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "18",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "150",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[185028,185029,185030,185031]],
+              [[185032,185033,185034,185035]],
+              [[185036,185037,185038,185039]],
+              [[185040,185041,185042,185043]],
+              [[185044,185045,185046,185047]],
+              [[185048,185049,185050,185051]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276789": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "19",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "108",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "54",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[210174,210175,210176,210177]],
+              [[210178,210179,210180,210181]],
+              [[210182,210183,210184,210185]],
+              [[210186,210187,210188,210189]],
+              [[210190,210191,210192,210193]],
+              [[210194,210195,210196,210197]],
+              [[210198,210199,210200,210201]],
+              [[210202,210203,210204,210205]],
+              [[210206,210207,210208,210209]],
+              [[210210,210211,210212,210213]],
+              [[210214,210215,210216,210217,210218,210219,210220,210221,210222,210223]],
+              [[210224,210225,210226,210227,210228,210229,210230,210231,210232,210233]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276790": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "2",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[224508,224509,224510,224511]],
+              [[224512,224513,224514,224515]],
+              [[224516,224517,224518,224519]],
+              [[224520,224521,224522,224523]],
+              [[224524,224525,224526,224527]],
+              [[224528,224529,224530,224531]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276794": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "20",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "107",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "52",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[228474,228475,228476,228477]],
+              [[228478,228479,228480,228481]],
+              [[228482,228483,228484,228485]],
+              [[228486,228487,228488,228489]],
+              [[228490,228491,228492,228493]],
+              [[228494,228495,228496,228497]],
+              [[228498,228499,228500,228501]],
+              [[228502,228503,228504,228505]],
+              [[228506,228507,228508,228509]],
+              [[228510,228511,228512,228513]],
+              [[228514,228515,228516,228517,228518,228519,228520,228521,228522,228523]],
+              [[228524,228525,228526,228527,228528,228529,228530,228531,228532,228533]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276798": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "27",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[374442,374443,374444,374445]],
+              [[374446,374447,374448,374449]],
+              [[374450,374451,374452,374453]],
+              [[374454,374455,374456,374457]],
+              [[374458,374459,374460,374461]],
+              [[374462,374463,374464,374465]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276799": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "28",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[400158,400159,400160,400161]],
+              [[400162,400163,400164,400165]],
+              [[400166,400167,400168,400169]],
+              [[400170,400171,400172,400173]],
+              [[400174,400175,400176,400177]],
+              [[400178,400179,400180,400181]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276801": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "29",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[420216,420217,420218,420219]],
+              [[420220,420221,420222,420223]],
+              [[420224,420225,420226,420227]],
+              [[420228,420229,420230,420231]],
+              [[420232,420233,420234,420235]],
+              [[420236,420237,420238,420239]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276804": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "3",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[444198,444199,444200,444201]],
+              [[444202,444203,444204,444205]],
+              [[444206,444207,444208,444209]],
+              [[444210,444211,444212,444213]],
+              [[444214,444215,444216,444217]],
+              [[444218,444219,444220,444221]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348602": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "30",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "203",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "202",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[447270,447271,447272,447273]],
+              [[447274,447275,447276,447277]],
+              [[447278,447279,447280,447281]],
+              [[447282,447283,447284,447285]],
+              [[447286,447287,447288,447289]],
+              [[447290,447291,447292,447293]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348600": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "31",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "200",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "196",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[476250,476251,476252,476253]],
+              [[476254,476255,476256,476257]],
+              [[476258,476259,476260,476261]],
+              [[476262,476263,476264,476265]],
+              [[476266,476267,476268,476269]],
+              [[476270,476271,476272,476273]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348630": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "32A",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2002",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[517128,517129,517130,517131]],
+              [[517132,517133,517134,517135]],
+              [[517136,517137,517138,517139]],
+              [[517140,517141,517142,517143]],
+              [[517144,517145,517146,517147]],
+              [[517148,517149,517150,517151]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348629": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "33",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "18",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "203",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "202",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "51.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[542202,542203,542204,542205]],
+              [[542206,542207,542208,542209]],
+              [[542210,542211,542212,542213]],
+              [[542214,542215,542216,542217]],
+              [[542218,542219,542220,542221]],
+              [[542222,542223,542224,542225]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276806": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "34",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "126",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "72",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[569334,569335,569336,569337]],
+              [[569338,569339,569340,569341]],
+              [[569342,569343,569344,569345]],
+              [[569346,569347,569348,569349]],
+              [[569350,569351,569352,569353]],
+              [[569354,569355,569356,569357]],
+              [[569358,569359,569360,569361]],
+              [[569362,569363,569364,569365]],
+              [[569366,569367,569368,569369]],
+              [[569370,569371,569372,569373]],
+              [[569374,569375,569376,569377,569378,569379,569380,569381,569382,569383]],
+              [[569384,569385,569386,569387,569388,569389,569390,569391,569392,569393]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276809": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "35A",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "5",
+        "hdb_year_completed": "2001",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "15.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[580734,580735,580736,580737]],
+              [[580738,580739,580740,580741]],
+              [[580742,580743,580744,580745]],
+              [[580746,580747,580748,580749]],
+              [[580750,580751,580752,580753]],
+              [[580754,580755,580756,580757]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276812": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "4",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "146",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[614400,614401,614402,614403]],
+              [[614404,614405,614406,614407]],
+              [[614408,614409,614410,614411]],
+              [[614412,614413,614414,614415]],
+              [[614416,614417,614418,614419]],
+              [[614420,614421,614422,614423]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276815": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "47A",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "2005",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[754284,754285,754286,754287]],
+              [[754288,754289,754290,754291]],
+              [[754292,754293,754294,754295]],
+              [[754296,754297,754298,754299]],
+              [[754300,754301,754302,754303]],
+              [[754304,754305,754306,754307]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276817": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "44A",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "2005",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "Y",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[683856,683857,683858,683859]],
+              [[683860,683861,683862,683863]],
+              [[683864,683865,683866,683867]],
+              [[683868,683869,683870,683871]],
+              [[683872,683873,683874,683875]],
+              [[683876,683877,683878,683879]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276818": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "45",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "150",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[713232,713233,713234,713235]],
+              [[713236,713237,713238,713239]],
+              [[713240,713241,713242,713243]],
+              [[713244,713245,713246,713247]],
+              [[713248,713249,713250,713251]],
+              [[713252,713253,713254,713255]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276819": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "46",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "109",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "108",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[737478,737479,737480,737481]],
+              [[737482,737483,737484,737485]],
+              [[737486,737487,737488,737489]],
+              [[737490,737491,737492,737493]],
+              [[737494,737495,737496,737497]],
+              [[737498,737499,737500,737501]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276822": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "47",
+        "hdb_street": "MARINE CRES",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "161",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "160",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[753852,753853,753854,753855]],
+              [[753856,753857,753858,753859]],
+              [[753860,753861,753862,753863]],
+              [[753864,753865,753866,753867]],
+              [[753868,753869,753870,753871]],
+              [[753872,753873,753874,753875]],
+              [[753876,753877,753878,753879]],
+              [[753880,753881,753882,753883]],
+              [[753884,753885,753886,753887,753888,753889,753890,753891]],
+              [[753892,753893,753894,753895,753896,753897,753898,753899]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276824": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "5",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "148",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "142",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "6",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[791406,791407,791408,791409]],
+              [[791410,791411,791412,791413]],
+              [[791414,791415,791416,791417]],
+              [[791418,791419,791420,791421]],
+              [[791422,791423,791424,791425]],
+              [[791426,791427,791428,791429]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191165506": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "50A",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[794388,794389,794390,794391]],
+              [[794392,794393,794394,794395]],
+              [[794396,794397,794398,794399]],
+              [[794400,794401,794402,794403]],
+              [[794404,794405,794406,794407]],
+              [[794408,794409,794410,794411]],
+              [[794412,794413,794414,794415]],
+              [[794416,794417,794418,794419]],
+              [[794420,794421,794422,794423]],
+              [[794424,794425,794426,794427]],
+              [[794428,794429,794430,794431,794432,794433,794434,794435,794436,794437]],
+              [[794438,794439,794440,794441,794442,794443,794444,794445,794446,794447]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276826": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "51",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "270",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "270",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[814824,814825,814826,814827]],
+              [[814828,814829,814830,814831]],
+              [[814832,814833,814834,814835]],
+              [[814836,814837,814838,814839]],
+              [[814840,814841,814842,814843]],
+              [[814844,814845,814846,814847]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276827": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "52",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "270",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "270",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[833520,833521,833522,833523]],
+              [[833524,833525,833526,833527]],
+              [[833528,833529,833530,833531]],
+              [[833532,833533,833534,833535]],
+              [[833536,833537,833538,833539]],
+              [[833540,833541,833542,833543]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276830": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "53",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "270",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "270",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[846258,846259,846260,846261]],
+              [[846262,846263,846264,846265]],
+              [[846266,846267,846268,846269]],
+              [[846270,846271,846272,846273]],
+              [[846274,846275,846276,846277]],
+              [[846278,846279,846280,846281]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276832": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "54",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "150",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[857646,857647,857648,857649]],
+              [[857650,857651,857652,857653]],
+              [[857654,857655,857656,857657]],
+              [[857658,857659,857660,857661]],
+              [[857662,857663,857664,857665]],
+              [[857666,857667,857668,857669]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276834": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "55",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "150",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[870372,870373,870374,870375]],
+              [[870376,870377,870378,870379]],
+              [[870380,870381,870382,870383]],
+              [[870384,870385,870386,870387]],
+              [[870388,870389,870390,870391]],
+              [[870392,870393,870394,870395]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/191165511": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "56",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[879348,879349,879350,879351]],
+              [[879352,879353,879354,879355]],
+              [[879356,879357,879358,879359]],
+              [[879360,879361,879362,879363]],
+              [[879364,879365,879366,879367]],
+              [[879368,879369,879370,879371,879372]],
+              [[879373,879374,879375,879376,879377]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276836": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "57",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "111",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "110",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[884628,884629,884630,884631]],
+              [[884632,884633,884634,884635]],
+              [[884636,884637,884638,884639]],
+              [[884640,884641,884642,884643]],
+              [[884644,884645,884646,884647]],
+              [[884648,884649,884650,884651]],
+              [[884652,884653,884654,884655]],
+              [[884656,884657,884658,884659]],
+              [[884660,884661,884662,884663,884664,884665,884666,884667]],
+              [[884668,884669,884670,884671,884672,884673,884674,884675]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276837": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "58",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "110",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "108",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "2",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[891516,891517,891518,891519]],
+              [[891520,891521,891522,891523]],
+              [[891524,891525,891526,891527]],
+              [[891528,891529,891530,891531]],
+              [[891532,891533,891534,891535]],
+              [[891536,891537,891538,891539]],
+              [[891540,891541,891542,891543]],
+              [[891544,891545,891546,891547]],
+              [[891548,891549,891550,891551,891552,891553,891554,891555]],
+              [[891556,891557,891558,891559,891560,891561,891562,891563]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276840": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "59",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "150",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[894714,894715,894716,894717]],
+              [[894718,894719,894720,894721]],
+              [[894722,894723,894724,894725]],
+              [[894726,894727,894728,894729]],
+              [[894730,894731,894732,894733]],
+              [[894734,894735,894736,894737]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276842": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "152",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "150",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "2",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[896988,896989,896990,896991]],
+              [[896992,896993,896994,896995]],
+              [[896996,896997,896998,896999]],
+              [[897000,897001,897002,897003]],
+              [[897004,897005,897006,897007]],
+              [[897008,897009,897010,897011]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574240": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "60",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "130",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "130",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[898044,898045,898046,898047]],
+              [[898048,898049,898050,898051]],
+              [[898052,898053,898054,898055]],
+              [[898056,898057,898058,898059]],
+              [[898060,898061,898062,898063]],
+              [[898064,898065,898066,898067]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574248": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "61",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "130",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "130",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[911478,911479,911480,911481]],
+              [[911482,911483,911484,911485]],
+              [[911486,911487,911488,911489]],
+              [[911490,911491,911492,911493]],
+              [[911494,911495,911496,911497]],
+              [[911498,911499,911500,911501]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574246": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "62",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "130",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "130",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[924558,924559,924560,924561]],
+              [[924562,924563,924564,924565]],
+              [[924566,924567,924568,924569]],
+              [[924570,924571,924572,924573]],
+              [[924574,924575,924576,924577]],
+              [[924578,924579,924580,924581]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574245": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "63",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "130",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "130",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[935436,935437,935438,935439]],
+              [[935440,935441,935442,935443]],
+              [[935444,935445,935446,935447]],
+              [[935448,935449,935450,935451]],
+              [[935452,935453,935454,935455]],
+              [[935456,935457,935458,935459]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574238": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "64",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "177",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "172",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "5",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[949032,949033,949034,949035]],
+              [[949036,949037,949038,949039]],
+              [[949040,949041,949042,949043]],
+              [[949044,949045,949046,949047]],
+              [[949048,949049,949050,949051]],
+              [[949052,949053,949054,949055]],
+              [[949056,949057,949058,949059,949060,949061]],
+              [[949062,949063,949064,949065,949066,949067]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276844": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "65",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "176",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "172",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "4",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[958704,958705,958706,958707]],
+              [[958708,958709,958710,958711]],
+              [[958712,958713,958714,958715]],
+              [[958716,958717,958718,958719]],
+              [[958720,958721,958722,958723]],
+              [[958724,958725,958726,958727]],
+              [[958728,958729,958730,958731,958732,958733]],
+              [[958734,958735,958736,958737,958738,958739]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348627": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "65A",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1994",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[959310,959311,959312,959313]],
+              [[959314,959315,959316,959317]],
+              [[959318,959319,959320,959321]],
+              [[959322,959323,959324,959325]],
+              [[959326,959327,959328,959329]],
+              [[959330,959331,959332,959333]],
+              [[959334,959335,959336,959337,959338,959339]],
+              [[959340,959341,959342,959343,959344,959345]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276846": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "66",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "180",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "180",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[969438,969439,969440,969441]],
+              [[969442,969443,969444,969445]],
+              [[969446,969447,969448,969449]],
+              [[969450,969451,969452,969453]],
+              [[969454,969455,969456,969457]],
+              [[969458,969459,969460,969461]],
+              [[969462,969463,969464,969465,969466,969467]],
+              [[969468,969469,969470,969471,969472,969473]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276847": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "67",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "16",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "177",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "174",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "3",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "46.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[997068,997069,997070,997071]],
+              [[997072,997073,997074,997075]],
+              [[997076,997077,997078,997079]],
+              [[997080,997081,997082,997083]],
+              [[997084,997085,997086,997087]],
+              [[997088,997089,997090,997091]],
+              [[997092,997093,997094,997095,997096,997097]],
+              [[997098,997099,997100,997101,997102,997103]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276850": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "7",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "110",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "110",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1043166,1043167,1043168,1043169]],
+              [[1043170,1043171,1043172,1043173]],
+              [[1043174,1043175,1043176,1043177]],
+              [[1043178,1043179,1043180,1043181]],
+              [[1043182,1043183,1043184,1043185]],
+              [[1043186,1043187,1043188,1043189]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44348632": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "71",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1053498,1053499,1053500,1053501]],
+              [[1053502,1053503,1053504,1053505]],
+              [[1053506,1053507,1053508,1053509]],
+              [[1053510,1053511,1053512,1053513]],
+              [[1053514,1053515,1053516,1053517]],
+              [[1053518,1053519,1053520,1053521]],
+              [[1053522,1053523,1053524,1053525]],
+              [[1053526,1053527,1053528,1053529]],
+              [[1053530,1053531,1053532,1053533]],
+              [[1053534,1053535,1053536,1053537]],
+              [[1053538,1053539,1053540,1053541]],
+              [[1053542,1053543,1053544,1053545]],
+              [[1053546,1053547,1053548,1053549,1053550,1053551,1053552,1053553,1053554,1053555,1053556,1053557]],
+              [[1053558,1053559,1053560,1053561,1053562,1053563,1053564,1053565,1053566,1053567,1053568,1053569]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276852": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "72",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1062288,1062289,1062290,1062291]],
+              [[1062292,1062293,1062294,1062295]],
+              [[1062296,1062297,1062298,1062299]],
+              [[1062300,1062301,1062302,1062303]],
+              [[1062304,1062305,1062306,1062307]],
+              [[1062308,1062309,1062310,1062311]],
+              [[1062312,1062313,1062314,1062315]],
+              [[1062316,1062317,1062318,1062319]],
+              [[1062320,1062321,1062322,1062323]],
+              [[1062324,1062325,1062326,1062327]],
+              [[1062328,1062329,1062330,1062331]],
+              [[1062332,1062333,1062334,1062335]],
+              [[1062336,1062337,1062338,1062339,1062340,1062341,1062342,1062343,1062344,1062345,1062346,1062347]],
+              [[1062348,1062349,1062350,1062351,1062352,1062353,1062354,1062355,1062356,1062357,1062358,1062359]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276854": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "73",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1069518,1069519,1069520,1069521]],
+              [[1069522,1069523,1069524,1069525]],
+              [[1069526,1069527,1069528,1069529]],
+              [[1069530,1069531,1069532,1069533]],
+              [[1069534,1069535,1069536,1069537]],
+              [[1069538,1069539,1069540,1069541]],
+              [[1069542,1069543,1069544,1069545]],
+              [[1069546,1069547,1069548,1069549]],
+              [[1069550,1069551,1069552,1069553]],
+              [[1069554,1069555,1069556,1069557]],
+              [[1069558,1069559,1069560,1069561]],
+              [[1069562,1069563,1069564,1069565]],
+              [[1069566,1069567,1069568,1069569,1069570,1069571,1069572,1069573,1069574,1069575,1069576,1069577]],
+              [[1069578,1069579,1069580,1069581,1069582,1069583,1069584,1069585,1069586,1069587,1069588,1069589]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276856": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "74",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "104",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "104",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1074654,1074655,1074656,1074657]],
+              [[1074658,1074659,1074660,1074661]],
+              [[1074662,1074663,1074664,1074665]],
+              [[1074666,1074667,1074668,1074669]],
+              [[1074670,1074671,1074672,1074673]],
+              [[1074674,1074675,1074676,1074677]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276858": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "76",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "104",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "104",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1089396,1089397,1089398,1089399]],
+              [[1089400,1089401,1089402,1089403]],
+              [[1089404,1089405,1089406,1089407]],
+              [[1089408,1089409,1089410,1089411]],
+              [[1089412,1089413,1089414,1089415]],
+              [[1089416,1089417,1089418,1089419]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173277348": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "77A",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "6",
+        "hdb_year_completed": "2013",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "18.1",
+        "osm_addr:postcode": "440077",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1096338,1096339,1096340,1096341]],
+              [[1096342,1096343,1096344,1096345]],
+              [[1096346,1096347,1096348,1096349]],
+              [[1096350,1096351,1096352,1096353]],
+              [[1096354,1096355,1096356,1096357]],
+              [[1096358,1096359,1096360,1096361]],
+              [[1096362,1096363,1096364,1096365]],
+              [[1096366,1096367,1096368,1096369]],
+              [[1096370,1096371,1096372,1096373]],
+              [[1096374,1096375,1096376,1096377]],
+              [[1096378,1096379,1096380,1096381]],
+              [[1096382,1096383,1096384,1096385]],
+              [[1096386,1096387,1096388,1096389]],
+              [[1096390,1096391,1096392,1096393]],
+              [[1096394,1096395,1096396,1096397,1096398,1096399,1096400,1096401,1096402,1096403,1096404,1096405,1096406,1096407]],
+              [[1096408,1096409,1096410,1096411,1096412,1096413,1096414,1096415,1096416,1096417,1096418,1096419,1096420,1096421]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574243": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "78",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1101114,1101115,1101116,1101117]],
+              [[1101118,1101119,1101120,1101121]],
+              [[1101122,1101123,1101124,1101125]],
+              [[1101126,1101127,1101128,1101129]],
+              [[1101130,1101131,1101132,1101133]],
+              [[1101134,1101135,1101136,1101137]],
+              [[1101138,1101139,1101140,1101141]],
+              [[1101142,1101143,1101144,1101145]],
+              [[1101146,1101147,1101148,1101149]],
+              [[1101150,1101151,1101152,1101153]],
+              [[1101154,1101155,1101156,1101157]],
+              [[1101158,1101159,1101160,1101161]],
+              [[1101162,1101163,1101164,1101165,1101166,1101167,1101168,1101169,1101170,1101171,1101172,1101173]],
+              [[1101174,1101175,1101176,1101177,1101178,1101179,1101180,1101181,1101182,1101183,1101184,1101185]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574241": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "79",
+        "hdb_street": "MARINE DR",
+        "hdb_max_floor_lvl": "25",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "96",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "71.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1105566,1105567,1105568,1105569]],
+              [[1105570,1105571,1105572,1105573]],
+              [[1105574,1105575,1105576,1105577]],
+              [[1105578,1105579,1105580,1105581]],
+              [[1105582,1105583,1105584,1105585]],
+              [[1105586,1105587,1105588,1105589]],
+              [[1105590,1105591,1105592,1105593]],
+              [[1105594,1105595,1105596,1105597]],
+              [[1105598,1105599,1105600,1105601]],
+              [[1105602,1105603,1105604,1105605]],
+              [[1105606,1105607,1105608,1105609]],
+              [[1105610,1105611,1105612,1105613]],
+              [[1105614,1105615,1105616,1105617]],
+              [[1105618,1105619,1105620,1105621,1105622,1105623,1105624,1105625,1105626,1105627,1105628,1105629,1105630]],
+              [[1105631,1105632,1105633,1105634,1105635,1105636,1105637,1105638,1105639,1105640,1105641,1105642,1105643]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276863": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8",
+        "hdb_street": "MARINE TER",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "108",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "106",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "2",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1108680,1108681,1108682,1108683]],
+              [[1108684,1108685,1108686,1108687]],
+              [[1108688,1108689,1108690,1108691]],
+              [[1108692,1108693,1108694,1108695]],
+              [[1108696,1108697,1108698,1108699]],
+              [[1108700,1108701,1108702,1108703]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574244": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "80",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "3",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "3",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": "440080",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1111410,1111411,1111412,1111413]],
+              [[1111414,1111415,1111416,1111417]],
+              [[1111418,1111419,1111420,1111421]],
+              [[1111422,1111423,1111424,1111425]],
+              [[1111426,1111427,1111428,1111429]],
+              [[1111430,1111431,1111432,1111433]],
+              [[1111434,1111435,1111436,1111437]],
+              [[1111438,1111439,1111440,1111441]],
+              [[1111442,1111443,1111444,1111445,1111446,1111447,1111448,1111449]],
+              [[1111450,1111451,1111452,1111453,1111454,1111455,1111456,1111457]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276865": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "81",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "3",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "2",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "1",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1128954,1128955,1128956,1128957]],
+              [[1128958,1128959,1128960,1128961]],
+              [[1128962,1128963,1128964,1128965]],
+              [[1128966,1128967,1128968,1128969]],
+              [[1128970,1128971,1128972,1128973]],
+              [[1128974,1128975,1128976,1128977]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276866": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "82",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1141824,1141825,1141826,1141827]],
+              [[1141828,1141829,1141830,1141831]],
+              [[1141832,1141833,1141834,1141835]],
+              [[1141836,1141837,1141838,1141839]],
+              [[1141840,1141841,1141842,1141843]],
+              [[1141844,1141845,1141846,1141847]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276867": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "83",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "3",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "3",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1146180,1146181,1146182,1146183]],
+              [[1146184,1146185,1146186,1146187]],
+              [[1146188,1146189,1146190,1146191]],
+              [[1146192,1146193,1146194,1146195]],
+              [[1146196,1146197,1146198,1146199]],
+              [[1146200,1146201,1146202,1146203]],
+              [[1146204,1146205,1146206,1146207]],
+              [[1146208,1146209,1146210,1146211]],
+              [[1146212,1146213,1146214,1146215]],
+              [[1146216,1146217,1146218,1146219]],
+              [[1146220,1146221,1146222,1146223,1146224,1146225,1146226,1146227,1146228,1146229]],
+              [[1146230,1146231,1146232,1146233,1146234,1146235,1146236,1146237,1146238,1146239]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47069574": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "84",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "1",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "Y",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "4.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1150368,1150369,1150370,1150371]],
+              [[1150372,1150373,1150374,1150375]],
+              [[1150376,1150377,1150378,1150379]],
+              [[1150380,1150381,1150382,1150383]],
+              [[1150384,1150385,1150386,1150387]],
+              [[1150388,1150389,1150390,1150391]],
+              [[1150392,1150393,1150394,1150395,1150396,1150397]],
+              [[1150398,1150399,1150400,1150401,1150402,1150403]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/173276871": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "85",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1154226,1154227,1154228,1154229]],
+              [[1154230,1154231,1154232,1154233]],
+              [[1154234,1154235,1154236,1154237]],
+              [[1154238,1154239,1154240,1154241]],
+              [[1154242,1154243,1154244,1154245]],
+              [[1154246,1154247,1154248,1154249]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/47069572": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "86",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "440086",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1157808,1157809,1157810,1157811]],
+              [[1157812,1157813,1157814,1157815]],
+              [[1157816,1157817,1157818,1157819]],
+              [[1157820,1157821,1157822,1157823]],
+              [[1157824,1157825,1157826,1157827]],
+              [[1157828,1157829,1157830,1157831]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/97574242": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "87",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1163526,1163527,1163528,1163529]],
+              [[1163530,1163531,1163532,1163533]],
+              [[1163534,1163535,1163536,1163537]],
+              [[1163538,1163539,1163540,1163541]],
+              [[1163542,1163543,1163544,1163545]],
+              [[1163546,1163547,1163548,1163549]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/44121571": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "89",
+        "hdb_street": "MARINE PARADE CTRL",
+        "hdb_max_floor_lvl": "6",
+        "hdb_year_completed": "1976",
+        "hdb_residential": "N",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "MP",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "18.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1171050,1171051,1171052,1171053]],
+              [[1171054,1171055,1171056,1171057]],
+              [[1171058,1171059,1171060,1171061]],
+              [[1171062,1171063,1171064,1171065]],
+              [[1171066,1171067,1171068,1171069]],
+              [[1171070,1171071,1171072,1171073]],
+              [[1171074,1171075,1171076,1171077,1171078,1171079]],
+              [[1171080,1171081,1171082,1171083,1171084,1171085]]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

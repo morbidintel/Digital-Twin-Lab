@@ -1,0 +1,18 @@
+{
+    "name": "Mapbox.Core.cheap-ruler-cs.Tests.Editor",
+    "rootNamespace": "Mapbox.Core.cheap-ruler-cs.Tests.Editor",
+    "references": [
+        "GUID:a63573750b0efbe49bd3692c243d13a9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

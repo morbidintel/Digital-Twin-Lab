@@ -1,0 +1,14 @@
+{
+    "name": "GeorgeChew.HiverlabAssessment.Data",
+    "rootNamespace": "GeorgeChew.HiverlabAssessment.Data",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

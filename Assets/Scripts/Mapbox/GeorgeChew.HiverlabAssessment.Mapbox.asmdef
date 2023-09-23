@@ -1,0 +1,16 @@
+{
+    "name": "GeorgeChew.HiverlabAssessment.Mapbox",
+    "rootNamespace": "GeorgeChew.HiverlabAssessment.Mapbox",
+    "references": [
+        "GUID:a63573750b0efbe49bd3692c243d13a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

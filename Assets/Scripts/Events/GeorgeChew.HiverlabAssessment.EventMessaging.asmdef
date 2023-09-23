@@ -1,0 +1,14 @@
+{
+    "name": "GeorgeChew.HiverlabAssessment.EventMessaging",
+    "rootNamespace": "GeorgeChew.HiverlabAssessment.EventMessaging",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

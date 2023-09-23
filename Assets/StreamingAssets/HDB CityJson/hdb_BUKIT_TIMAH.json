@@ -1,0 +1,1512 @@
+{
+  "type": "CityJSON",
+  "version": "1.0",
+  "CityObjects": {
+    "way/152769326": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1",
+        "hdb_street": "QUEEN'S RD",
+        "hdb_max_floor_lvl": "23",
+        "hdb_year_completed": "1974",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "88",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "88",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "65.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1752,1753,1754,1755]],
+              [[1756,1757,1758,1759]],
+              [[1760,1761,1762,1763]],
+              [[1764,1765,1766,1767]],
+              [[1768,1769,1770,1771]],
+              [[1772,1773,1774,1775]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128096": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1987",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "132",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "72",
+        "hdb_5room_sold": "60",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "591501",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2100,2101,2102,2103]],
+              [[2104,2105,2106,2107]],
+              [[2108,2109,2110,2111]],
+              [[2112,2113,2114,2115]],
+              [[2116,2117,2118,2119]],
+              [[2120,2121,2122,2123]],
+              [[2124,2125,2126,2127]],
+              [[2128,2129,2130,2131]],
+              [[2132,2133,2134,2135,2136,2137,2138,2139]],
+              [[2140,2141,2142,2143,2144,2145,2146,2147]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128097": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "1A",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "591601",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[2574,2575,2576,2577]],
+              [[2578,2579,2580,2581]],
+              [[2582,2583,2584,2585]],
+              [[2586,2587,2588,2589]],
+              [[2590,2591,2592,2593]],
+              [[2594,2595,2596,2597]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666601": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "10",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "7",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "36",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "36",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "20.9",
+        "osm_addr:postcode": "590010",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[3798,3799,3800,3801]],
+              [[3802,3803,3804,3805]],
+              [[3806,3807,3808,3809]],
+              [[3810,3811,3812,3813]],
+              [[3814,3815,3816,3817]],
+              [[3818,3819,3820,3821]],
+              [[3822,3823,3824,3825]],
+              [[3826,3827,3828,3829,3830,3831,3832]],
+              [[3833,3834,3835,3836,3837,3838,3839]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/451918623": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "11",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "11",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "115",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "69",
+        "hdb_5room_sold": "46",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "32.1",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[40626,40627,40628,40629]],
+              [[40630,40631,40632,40633]],
+              [[40634,40635,40636,40637]],
+              [[40638,40639,40640,40641]],
+              [[40642,40643,40644,40645]],
+              [[40646,40647,40648,40649]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666603": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "12",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "88",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "48",
+        "hdb_5room_sold": "40",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": "590012",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[74958,74959,74960,74961]],
+              [[74962,74963,74964,74965]],
+              [[74966,74967,74968,74969]],
+              [[74970,74971,74972,74973]],
+              [[74974,74975,74976,74977]],
+              [[74978,74979,74980,74981]],
+              [[74982,74983,74984,74985,74986,74987]],
+              [[74988,74989,74990,74991,74992,74993]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466916": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "13",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "138",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "81",
+        "hdb_5room_sold": "57",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590013",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[102090,102091,102092,102093]],
+              [[102094,102095,102096,102097]],
+              [[102098,102099,102100,102101]],
+              [[102102,102103,102104,102105]],
+              [[102106,102107,102108,102109]],
+              [[102110,102111,102112,102113]],
+              [[102114,102115,102116,102117]],
+              [[102118,102119,102120,102121]],
+              [[102122,102123,102124,102125,102126,102127,102128,102129]],
+              [[102130,102131,102132,102133,102134,102135,102136,102137]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466917": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "14",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1987",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "42",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590014",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[122430,122431,122432,122433]],
+              [[122434,122435,122436,122437]],
+              [[122438,122439,122440,122441]],
+              [[122442,122443,122444,122445]],
+              [[122446,122447,122448,122449]],
+              [[122450,122451,122452,122453]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466918": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "15",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1987",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "16",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "16",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "590015",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[136008,136009,136010,136011]],
+              [[136012,136013,136014,136015]],
+              [[136016,136017,136018,136019]],
+              [[136020,136021,136022,136023]],
+              [[136024,136025,136026,136027]],
+              [[136028,136029,136030,136031]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466919": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "16",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1987",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "42",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590016",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[150450,150451,150452,150453]],
+              [[150454,150455,150456,150457]],
+              [[150458,150459,150460,150461]],
+              [[150462,150463,150464,150465]],
+              [[150466,150467,150468,150469]],
+              [[150470,150471,150472,150473]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466920": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "17",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "138",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "75",
+        "hdb_5room_sold": "63",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": "590017",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[171120,171121,171122,171123]],
+              [[171124,171125,171126,171127]],
+              [[171128,171129,171130,171131]],
+              [[171132,171133,171134,171135]],
+              [[171136,171137,171138,171139]],
+              [[171140,171141,171142,171143]],
+              [[171144,171145,171146,171147]],
+              [[171148,171149,171150,171151]],
+              [[171152,171153,171154,171155,171156,171157,171158,171159]],
+              [[171160,171161,171162,171163,171164,171165,171166,171167]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466921": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "18",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "22",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "13",
+        "hdb_4room_sold": "9",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "590018",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[185196,185197,185198,185199]],
+              [[185200,185201,185202,185203]],
+              [[185204,185205,185206,185207]],
+              [[185208,185209,185210,185211]],
+              [[185212,185213,185214,185215]],
+              [[185216,185217,185218,185219]],
+              [[185220,185221,185222,185223,185224,185225]],
+              [[185226,185227,185228,185229,185230,185231]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136466922": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "19",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "16",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "8",
+        "hdb_4room_sold": "8",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "590019",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[210396,210397,210398,210399]],
+              [[210400,210401,210402,210403]],
+              [[210404,210405,210406,210407]],
+              [[210408,210409,210410,210411]],
+              [[210412,210413,210414,210415]],
+              [[210416,210417,210418,210419]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/452298430": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "2",
+        "hdb_street": "QUEEN'S RD",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "66",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "10",
+        "hdb_4room_sold": "56",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[224556,224557,224558,224559]],
+              [[224560,224561,224562,224563]],
+              [[224564,224565,224566,224567]],
+              [[224568,224569,224570,224571]],
+              [[224572,224573,224574,224575]],
+              [[224576,224577,224578,224579]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128098": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "2",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "15",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "78",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "78",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "43.3",
+        "osm_addr:postcode": "590002",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[224766,224767,224768,224769]],
+              [[224770,224771,224772,224773]],
+              [[224774,224775,224776,224777]],
+              [[224778,224779,224780,224781]],
+              [[224782,224783,224784,224785]],
+              [[224786,224787,224788,224789]],
+              [[224790,224791,224792,224793]],
+              [[224794,224795,224796,224797]],
+              [[224798,224799,224800,224801]],
+              [[224802,224803,224804,224805]],
+              [[224806,224807,224808,224809,224810,224811,224812,224813,224814,224815]],
+              [[224816,224817,224818,224819,224820,224821,224822,224823,224824,224825]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/543187812": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "21",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "2015",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "132",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "49",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "83",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[262020,262021,262022,262023]],
+              [[262024,262025,262026,262027]],
+              [[262028,262029,262030,262031]],
+              [[262032,262033,262034,262035]],
+              [[262036,262037,262038,262039]],
+              [[262040,262041,262042,262043]],
+              [[262044,262045,262046,262047]],
+              [[262048,262049,262050,262051]],
+              [[262052,262053,262054,262055]],
+              [[262056,262057,262058,262059]],
+              [[262060,262061,262062,262063]],
+              [[262064,262065,262066,262067]],
+              [[262068,262069,262070,262071]],
+              [[262072,262073,262074,262075]],
+              [[262076,262077,262078,262079]],
+              [[262080,262081,262082,262083]],
+              [[262084,262085,262086,262087]],
+              [[262088,262089,262090,262091]],
+              [[262092,262093,262094,262095]],
+              [[262096,262097,262098,262099]],
+              [[262100,262101,262102,262103]],
+              [[262104,262105,262106,262107]],
+              [[262108,262109,262110,262111]],
+              [[262112,262113,262114,262115]],
+              [[262116,262117,262118,262119]],
+              [[262120,262121,262122,262123]],
+              [[262124,262125,262126,262127]],
+              [[262128,262129,262130,262131]],
+              [[262132,262133,262134,262135]],
+              [[262136,262137,262138,262139]],
+              [[262140,262141,262142,262143]],
+              [[262144,262145,262146,262147]],
+              [[262148,262149,262150,262151,262152,262153,262154,262155,262156,262157,262158,262159,262160,262161,262162,262163,262164,262165,262166,262167,262168,262169,262170,262171,262172,262173,262174,262175,262176,262177,262178,262179]],
+              [[262180,262181,262182,262183,262184,262185,262186,262187,262188,262189,262190,262191,262192,262193,262194,262195,262196,262197,262198,262199,262200,262201,262202,262203,262204,262205,262206,262207,262208,262209,262210,262211]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/452298493": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "3",
+        "hdb_street": "QUEEN'S RD",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "150",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "28",
+        "hdb_4room_sold": "122",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[444330,444331,444332,444333]],
+              [[444334,444335,444336,444337]],
+              [[444338,444339,444340,444341]],
+              [[444342,444343,444344,444345]],
+              [[444346,444347,444348,444349]],
+              [[444350,444351,444352,444353]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128099": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "3",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "15",
+        "hdb_year_completed": "1987",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "64",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "64",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "43.3",
+        "osm_addr:postcode": "590003",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[444480,444481,444482,444483]],
+              [[444484,444485,444486,444487]],
+              [[444488,444489,444490,444491]],
+              [[444492,444493,444494,444495]],
+              [[444496,444497,444498,444499]],
+              [[444500,444501,444502,444503]],
+              [[444504,444505,444506,444507]],
+              [[444508,444509,444510,444511]],
+              [[444512,444513,444514,444515]],
+              [[444516,444517,444518,444519]],
+              [[444520,444521,444522,444523]],
+              [[444524,444525,444526,444527,444528,444529,444530,444531,444532,444533,444534]],
+              [[444535,444536,444537,444538,444539,444540,444541,444542,444543,444544,444545]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/159940904": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "4",
+        "hdb_street": "QUEEN'S RD",
+        "hdb_max_floor_lvl": "12",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "185",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "184",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "1",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "34.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[614448,614449,614450,614451]],
+              [[614452,614453,614454,614455]],
+              [[614456,614457,614458,614459]],
+              [[614460,614461,614462,614463]],
+              [[614464,614465,614466,614467]],
+              [[614468,614469,614470,614471]],
+              [[614472,614473,614474,614475,614476,614477]],
+              [[614478,614479,614480,614481,614482,614483]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128100": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "4",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "132",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "72",
+        "hdb_5room_sold": "60",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590004",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[614694,614695,614696,614697]],
+              [[614698,614699,614700,614701]],
+              [[614702,614703,614704,614705]],
+              [[614706,614707,614708,614709]],
+              [[614710,614711,614712,614713]],
+              [[614714,614715,614716,614717]],
+              [[614718,614719,614720,614721]],
+              [[614722,614723,614724,614725]],
+              [[614726,614727,614728,614729,614730,614731,614732,614733]],
+              [[614734,614735,614736,614737,614738,614739,614740,614741]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/166909422": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6A",
+        "hdb_street": "FARRER RD",
+        "hdb_max_floor_lvl": "2",
+        "hdb_year_completed": "1998",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "6.9",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[897348,897349,897350,897351]],
+              [[897352,897353,897354,897355]],
+              [[897356,897357,897358,897359]],
+              [[897360,897361,897362,897363]],
+              [[897364,897365,897366,897367]],
+              [[897368,897369,897370,897371]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136128102": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "5",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1989",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "132",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "72",
+        "hdb_5room_sold": "60",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590005",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[791712,791713,791714,791715]],
+              [[791716,791717,791718,791719]],
+              [[791720,791721,791722,791723]],
+              [[791724,791725,791726,791727]],
+              [[791728,791729,791730,791731]],
+              [[791732,791733,791734,791735]],
+              [[791736,791737,791738,791739]],
+              [[791740,791741,791742,791743]],
+              [[791744,791745,791746,791747,791748,791749,791750,791751]],
+              [[791752,791753,791754,791755,791756,791757,791758,791759]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/166909430": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6",
+        "hdb_street": "FARRER RD",
+        "hdb_max_floor_lvl": "10",
+        "hdb_year_completed": "1973",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "90",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "16",
+        "hdb_4room_sold": "74",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "29.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[896490,896491,896492,896493]],
+              [[896494,896495,896496,896497]],
+              [[896498,896499,896500,896501]],
+              [[896502,896503,896504,896505]],
+              [[896506,896507,896508,896509]],
+              [[896510,896511,896512,896513]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666604": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "6",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "15",
+        "hdb_year_completed": "1989",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "78",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "78",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "43.3",
+        "osm_addr:postcode": "590006",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[897162,897163,897164,897165]],
+              [[897166,897167,897168,897169]],
+              [[897170,897171,897172,897173]],
+              [[897174,897175,897176,897177]],
+              [[897178,897179,897180,897181]],
+              [[897182,897183,897184,897185]],
+              [[897186,897187,897188,897189]],
+              [[897190,897191,897192,897193]],
+              [[897194,897195,897196,897197,897198,897199,897200,897201]],
+              [[897202,897203,897204,897205,897206,897207,897208,897209]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/152302087": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8A",
+        "hdb_street": "EMPRESS RD",
+        "hdb_max_floor_lvl": "5",
+        "hdb_year_completed": "1997",
+        "hdb_residential": "N",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "Y",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "0",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "15.3",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1109310,1109311,1109312,1109313]],
+              [[1109314,1109315,1109316,1109317]],
+              [[1109318,1109319,1109320,1109321]],
+              [[1109322,1109323,1109324,1109325]],
+              [[1109326,1109327,1109328,1109329]],
+              [[1109330,1109331,1109332,1109333]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666605": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "7",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "15",
+        "hdb_year_completed": "1989",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "76",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "76",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "43.3",
+        "osm_addr:postcode": "590007",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1043580,1043581,1043582,1043583]],
+              [[1043584,1043585,1043586,1043587]],
+              [[1043588,1043589,1043590,1043591]],
+              [[1043592,1043593,1043594,1043595]],
+              [[1043596,1043597,1043598,1043599]],
+              [[1043600,1043601,1043602,1043603]],
+              [[1043604,1043605,1043606,1043607]],
+              [[1043608,1043609,1043610,1043611]],
+              [[1043612,1043613,1043614,1043615]],
+              [[1043616,1043617,1043618,1043619]],
+              [[1043620,1043621,1043622,1043623,1043624,1043625,1043626,1043627,1043628,1043629]],
+              [[1043630,1043631,1043632,1043633,1043634,1043635,1043636,1043637,1043638,1043639]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/166962629": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8",
+        "hdb_street": "EMPRESS RD",
+        "hdb_max_floor_lvl": "14",
+        "hdb_year_completed": "1975",
+        "hdb_residential": "Y",
+        "hdb_commercial": "Y",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "186",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "180",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "6",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "40.5",
+        "osm_addr:postcode": null,
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1107690,1107691,1107692,1107693]],
+              [[1107694,1107695,1107696,1107697]],
+              [[1107698,1107699,1107700,1107701]],
+              [[1107702,1107703,1107704,1107705]],
+              [[1107706,1107707,1107708,1107709]],
+              [[1107710,1107711,1107712,1107713]],
+              [[1107714,1107715,1107716,1107717]],
+              [[1107718,1107719,1107720,1107721,1107722,1107723,1107724]],
+              [[1107725,1107726,1107727,1107728,1107729,1107730,1107731]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666606": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "8",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "4",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "N",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "32",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "0",
+        "hdb_5room_sold": "0",
+        "hdb_exec_sold": "32",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "12.5",
+        "osm_addr:postcode": "590008",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1108908,1108909,1108910,1108911]],
+              [[1108912,1108913,1108914,1108915]],
+              [[1108916,1108917,1108918,1108919]],
+              [[1108920,1108921,1108922,1108923]],
+              [[1108924,1108925,1108926,1108927]],
+              [[1108928,1108929,1108930,1108931]]
+            ]
+          ]
+        }
+      ]
+    },
+    "way/136666607": {
+      "type": "Building",
+      "attributes": {
+        "hdb_blk_no": "9",
+        "hdb_street": "TOH YI DR",
+        "hdb_max_floor_lvl": "13",
+        "hdb_year_completed": "1988",
+        "hdb_residential": "Y",
+        "hdb_commercial": "N",
+        "hdb_market_hawker": "N",
+        "hdb_miscellaneous": "Y",
+        "hdb_multistorey_carpark": "N",
+        "hdb_precinct_pavilion": "N",
+        "hdb_bldg_contract_town": "BT",
+        "hdb_total_dwelling_units": "96",
+        "hdb_1room_sold": "0",
+        "hdb_2room_sold": "0",
+        "hdb_3room_sold": "0",
+        "hdb_4room_sold": "54",
+        "hdb_5room_sold": "42",
+        "hdb_exec_sold": "0",
+        "hdb_multigen_sold": "0",
+        "hdb_studio_apartment_sold": "0",
+        "hdb_1room_rental": "0",
+        "hdb_2room_rental": "0",
+        "hdb_3room_rental": "0",
+        "hdb_other_room_rental": "0",
+        "height": "37.7",
+        "osm_addr:postcode": "590009",
+        "osm_height": null,
+        "osm_addr:housename": null
+      },
+      "geometry": [
+        {
+          "type": "Solid",
+          "lod": 1,
+          "boundaries": [
+            [
+              [[1179120,1179121,1179122,1179123]],
+              [[1179124,1179125,1179126,1179127]],
+              [[1179128,1179129,1179130,1179131]],
+              [[1179132,1179133,1179134,1179135]],
+              [[1179136,1179137,1179138,1179139]],
+              [[1179140,1179141,1179142,1179143]],
+              [[1179144,1179145,1179146,1179147,1179148,1179149]],
+              [[1179150,1179151,1179152,1179153,1179154,1179155]]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
