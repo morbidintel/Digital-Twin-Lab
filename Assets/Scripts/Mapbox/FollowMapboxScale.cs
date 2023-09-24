@@ -10,21 +10,21 @@ namespace GeorgeChew.HiverlabAssessment.Mapbox
     /// </summary>
     public class FollowMapboxScale : MonoBehaviour
     {
-        [SerializeField] AbstractMap map;
+        [SerializeField] private AbstractMap map;
 
-        Vector3 originalScale;
+        private Vector3 originalScale;
 
         private void Awake()
         {
             Assert.IsNotNull(map);
         }
 
-        void Start()
+        private void Start()
         {
             originalScale = transform.localScale;
         }
 
-        void Update()
+        private void LateUpdate()
         {
             transform.localScale = originalScale.HadamardMul(map.transform.localScale);
         }
