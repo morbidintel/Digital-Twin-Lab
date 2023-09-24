@@ -12,8 +12,6 @@ namespace GeorgeChew.HiverlabAssessment.Data
         public string postal_code;
         public int total_dwelling_units;
         public int max_floor_lvl;
-        public double lat;
-        public double lng;
         public double height;
     }
 }
