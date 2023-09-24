@@ -18,6 +18,8 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
         public ConsumptionData ConsumptionData => consumptionData;
 
         [SerializeField] private MeshRenderer meshRenderer;
+        [SerializeField] private MeshCollider meshCollider;
+
         [SerializeField, ReadOnly] private HdbBlockData hdbData;
         [SerializeField, ReadOnly] private ConsumptionData consumptionData;
 
@@ -31,9 +33,7 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
 
         private void Start()
         {
-            // collider needs to be created on run time
-            var collider = gameObject.AddComponent<MeshCollider>();
-            collider.sharedMesh = GetComponent<MeshFilter>()?.mesh ?? null;
+            meshCollider.sharedMesh = GetComponent<MeshFilter>()?.mesh ?? null;
 
             originalColor = meshRenderer.material.color;
             material = meshRenderer.material;
