@@ -41,7 +41,7 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
         // Start is called before the first frame update
         private void Start()
         {
-            CityJsonEvents.OnLoadedAllData += OnCityJsonLoaded;
+            CityJsonEvents.OnLoadedAllHdbBlocks += OnCityJsonLoaded;
         }
 
         private void OnCityJsonLoaded(object obj)

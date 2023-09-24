@@ -98,7 +98,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
         private IEnumerator WaitForAllLoaded()
         {
             yield return new WaitUntil(() => HasLoadedAll);
-            Events.OnLoadedAllData.Publish(blocks);
+            Events.OnLoadedAllHdbBlocks.Publish(blocks);
         }
 
         private void LoadVerticesFile()

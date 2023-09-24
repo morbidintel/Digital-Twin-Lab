@@ -6,7 +6,7 @@ namespace GeorgeChew.HiverlabAssessment.EventMessaging
         {
             public static Event OnLoadedAllFiles = new();
             public static Event OnLoadedVertices = new();
-            public static Event OnLoadedAllData = new();
+            public static Event OnLoadedAllHdbBlocks = new();
         }
 
         public static class Heatmap

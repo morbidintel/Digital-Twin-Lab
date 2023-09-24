@@ -28,7 +28,7 @@ namespace GeorgeChew.HiverlabAssessment.UI
                 .SetEase(Ease.Linear)
                 .SetRelative(true);
 
-            CityJsonEvents.OnLoadedAllData += OnLoadedCityJson;
+            CityJsonEvents.OnLoadedAllHdbBlocks += OnLoadedCityJson;
         }
 
         void OnLoadedCityJson(object _)

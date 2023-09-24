@@ -58,6 +58,9 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
                 }
             }
 
+
+            Events.OnLoadedAllHdbBlocks.Publish(blocks);
+
             Debug.Log($"[BuildingsGenerator] " +
                 $"Generated {cityObjects.Count} buildings in {sw.ElapsedMilliseconds} ms.");
         }
