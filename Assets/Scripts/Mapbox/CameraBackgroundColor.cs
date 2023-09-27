@@ -5,10 +5,13 @@ using UnityEngine;
 
 namespace GeorgeChew.UnityAssessment.Mapbox
 {
+    using Events = EventMessaging.Registry.Mapbox;
+
     /// <summary>
-    /// Changes the Background Color of the Camera according to the <see cref="ImagerySourceType"/>
-    /// of the <see cref="AbstractMap"/>.
+    /// Changes the Background Color of the Camera according to the 
+    /// <see cref="ImagerySourceType"/> of the <see cref="AbstractMap"/>.
     /// </summary>
+    [RequireComponent(typeof(Camera))]
     public class CameraBackgroundColor : MonoBehaviour
     {
         [SerializeField]
@@ -30,22 +33,20 @@ namespace GeorgeChew.UnityAssessment.Mapbox
         private void Start()
         {
             UpdateColor(map.ImageLayer.LayerSource);
+
+            Events.OnChangeImageSource += UpdateColor;
         }
 
-        private void Update()
+        private void UpdateColor(object obj)
         {
-            if (currentImageSource != map.ImageLayer.LayerSource)
-            {
-                UpdateColor(map.ImageLayer.LayerSource);
-            }
-        }
+            currentImageSource = (ImagerySourceType)obj;
 
-        private void UpdateColor(ImagerySourceType imageSource)
-        {
-            currentImageSource = imageSource;
             int colorIndex = (int)currentImageSource;
+
             if (colorIndex < colors.Length)
+            {
                 GetComponent<Camera>().backgroundColor = colors[colorIndex];
+            }
         }
     }
 }

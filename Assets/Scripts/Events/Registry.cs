@@ -19,6 +19,11 @@ namespace GeorgeChew.UnityAssessment.EventMessaging
             public static Event OnClickHdbBlock = new();
         }
 
+        public static class Mapbox
+        {
+            public static Event OnChangeImageSource = new();
+        }
+
         public static class UI
         {
             public static Event OnAnyLeftPanelTabToggle = new();

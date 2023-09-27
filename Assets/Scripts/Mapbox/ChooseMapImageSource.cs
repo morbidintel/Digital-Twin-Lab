@@ -7,6 +7,8 @@ using UnityEngine;
 
 namespace GeorgeChew.UnityAssessment.MapBox
 {
+    using Events = EventMessaging.Registry.Mapbox;
+
     /// <summary>
     /// Facilitates changing the Mapbox Image Source with a Dropdown
     /// </summary>
@@ -40,7 +42,9 @@ namespace GeorgeChew.UnityAssessment.MapBox
 
         public void OnDropdownValueChanged(int value)
         {
-            map.ImageLayer.SetLayerSource((ImagerySourceType)value);
+            ImagerySourceType sourceType = (ImagerySourceType)value;
+            map.ImageLayer.SetLayerSource(sourceType);
+            Events.OnChangeImageSource.Publish(sourceType);
         }
     }
 }

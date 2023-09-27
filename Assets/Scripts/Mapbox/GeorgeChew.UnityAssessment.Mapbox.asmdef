@@ -2,7 +2,8 @@
     "name": "GeorgeChew.UnityAssessment.Mapbox",
     "rootNamespace": "GeorgeChew.UnityAssessment.Mapbox",
     "references": [
-        "GUID:a63573750b0efbe49bd3692c243d13a9"
+        "GUID:a63573750b0efbe49bd3692c243d13a9",
+        "GUID:c30e2dabb0c261b4c8abf3b11f8b3e13"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
