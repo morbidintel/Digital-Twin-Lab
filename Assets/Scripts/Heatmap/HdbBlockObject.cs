@@ -52,24 +52,28 @@ namespace GeorgeChew.UnityAssessment.Heatmap
             Events.OnClickHdbBlock.Publish(this);
         }
 
+        // change color of building according to the energy value
         public void ShowEnergyHeatmap(
             float energyMinValue,
             float energyMaxValue,
             Color energyMinColor,
             Color energyMaxColor)
         {
-            float t = Mathf.InverseLerp(energyMinValue, energyMaxValue, consumptionData.energyPerUnit);
-            material.color = Color.Lerp(energyMinColor, energyMaxColor, t);
+            float lerpAmount = 
+                Mathf.InverseLerp(energyMinValue, energyMaxValue, consumptionData.energyPerUnit);
+            material.color = Color.Lerp(energyMinColor, energyMaxColor, lerpAmount);
         }
 
+        // change color of building according to the water value
         public void ShowWaterHeatmap(
             float waterMinValue,
             float waterMaxValue,
             Color waterMinColor,
             Color waterMaxColor)
         {
-            float t = Mathf.InverseLerp(waterMinValue, waterMaxValue, consumptionData.waterPerUnit);
-            material.color = Color.Lerp(waterMinColor, waterMaxColor, t);
+            float lerpAmount = 
+                Mathf.InverseLerp(waterMinValue, waterMaxValue, consumptionData.waterPerUnit);
+            material.color = Color.Lerp(waterMinColor, waterMaxColor, lerpAmount);
         }
 
         public void RemoveHeatmap()

@@ -57,10 +57,7 @@ namespace GeorgeChew.UnityAssessment.UI
             transform.rotation = Quaternion.Euler(rotation);
         }
 
-        /// <summary>
-        /// Resets the MapCamera.
-        /// </summary>
-        public void OnClickCompass()
+        private void OnClickCompass()
         {
             // move the camera a bit to stop the camera spinning
             camera.Azimuth = camera.Azimuth < 180f ? 0 : 360;

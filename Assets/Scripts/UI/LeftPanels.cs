@@ -29,7 +29,6 @@ namespace GeorgeChew.UnityAssessment.UI
             Assert.IsTrue(tabs.Count > 0);
         }
 
-        // Start is called before the first frame update
         private void Start()
         {
             rectTransform = transform as RectTransform;

@@ -13,6 +13,7 @@ namespace GeorgeChew.UnityAssessment.Data
         public float energyPerUnit;
         public float waterPerUnit;
 
+        // generate random data based on number of residential units in the block
         public static ConsumptionData GenerateFromHdbData(float total_dwelling_units)
         {
             float energyPerUnit = AverageEnergyPerUnit * Random.Range(0.9f, 1.1f);

@@ -38,15 +38,6 @@ namespace GeorgeChew.UnityAssessment.UI
         {
             // don't close panel if there other panels are opened
             Events.OnAnyLeftPanelTabToggle.Publish((this, value));
-
-            //if (value)
-            //{
-            //    LeftPanelMovement.Instance.OpenPanel(panel);
-            //}
-            //else if (!toggle.group.AnyTogglesOn())
-            //{
-            //    LeftPanelMovement.Instance.ClosePanel(panel);
-            //}
         }
     }
 }

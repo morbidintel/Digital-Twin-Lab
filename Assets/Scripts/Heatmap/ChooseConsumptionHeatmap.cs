@@ -48,6 +48,7 @@ namespace GeorgeChew.UnityAssessment.Heatmap
             legendGradient.m_color2 = heatmap.EnergyMaxColor;
         }
 
+        // populate dropdown according to the values in HdbBlocksHeatmap.HeatmapMode
         private void PopulateDropdown()
         {
             var options = Enum.GetNames(typeof(HdbBlocksHeatmap.HeatmapMode))
