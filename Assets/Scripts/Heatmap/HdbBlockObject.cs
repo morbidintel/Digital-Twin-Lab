@@ -1,9 +1,8 @@
-﻿using Gamelogic.Extensions;
-using UnityEngine.Assertions;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine;
+using Gamelogic.Extensions;
 
-namespace GeorgeChew.HiverlabAssessment.Heatmap
+namespace GeorgeChew.UnityAssessment.Heatmap
 {
     using Data;
     using Events = EventMessaging.Registry.Heatmap;

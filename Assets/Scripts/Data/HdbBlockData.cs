@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GeorgeChew.HiverlabAssessment.Data
+namespace GeorgeChew.UnityAssessment.Data
 {
     [Serializable]
     public class HdbBlockData

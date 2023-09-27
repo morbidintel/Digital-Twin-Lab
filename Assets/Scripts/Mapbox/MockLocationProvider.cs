@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Mapbox.Unity.Location;
+using Mapbox.Unity.Map;
 using Mapbox.Unity.Utilities;
 using Mapbox.Utils;
-using UnityEngine;
-using Mapbox.Unity.Map;
-using Mapbox.Unity.Location;
 using System.Collections;
+using System;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.Mapbox
+namespace GeorgeChew.UnityAssessment.Mapbox
 {
     /// <summary>
     /// Injects a mock location into Mapbox and prevents Mapbox from retrieving Location info from the device.<br/>

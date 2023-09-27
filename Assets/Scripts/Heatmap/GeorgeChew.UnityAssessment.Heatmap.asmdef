@@ -1,8 +1,9 @@
 {
-    "name": "GeorgeChew.HiverlabAssessment.UI",
-    "rootNamespace": "GeorgeChew.HiverlabAssessment.UI",
+    "name": "GeorgeChew.UnityAssessment.Heatmap",
+    "rootNamespace": "GeorgeChew.UnityAssessment.Heatmap",
     "references": [
         "GUID:a63573750b0efbe49bd3692c243d13a9",
+        "GUID:8ae5e38619cb1f54bb2d8d2eee9f2be2",
         "GUID:c30e2dabb0c261b4c8abf3b11f8b3e13",
         "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],

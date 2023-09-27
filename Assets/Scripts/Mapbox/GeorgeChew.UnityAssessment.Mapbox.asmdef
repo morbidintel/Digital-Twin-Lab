@@ -1,7 +1,9 @@
 {
-    "name": "GeorgeChew.HiverlabAssessment.Data",
-    "rootNamespace": "GeorgeChew.HiverlabAssessment.Data",
-    "references": [],
+    "name": "GeorgeChew.UnityAssessment.Mapbox",
+    "rootNamespace": "GeorgeChew.UnityAssessment.Mapbox",
+    "references": [
+        "GUID:a63573750b0efbe49bd3692c243d13a9"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

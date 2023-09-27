@@ -1,5 +1,8 @@
-namespace GeorgeChew.HiverlabAssessment.EventMessaging
+namespace GeorgeChew.UnityAssessment.EventMessaging
 {
+    /// <summary>
+    /// Event registry, allows for easy access for all the events for each module.
+    /// </summary>
     public static class Registry
     {
         public static class CityJson

@@ -1,14 +1,19 @@
-using UnityEngine;
-using System.Threading.Tasks;
-using System.IO;
 using System.Collections;
-using UnityEngine.Assertions;
+using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
+using UnityEngine.Assertions;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.CityJson
+namespace GeorgeChew.UnityAssessment.CityJson
 {
     using Events = EventMessaging.Registry.CityJson;
 
+    /// <summary>
+    /// Load the vertices coordinates data from the specified vertices CSV file. <br></br>
+    /// The CSV file has no header, and each line contains 3 floats corresponding
+    /// to an x, y, z coordinate.
+    /// </summary>
     public class VerticesDataLoader : MonoBehaviour
     {
         [SerializeField] private string filepath;

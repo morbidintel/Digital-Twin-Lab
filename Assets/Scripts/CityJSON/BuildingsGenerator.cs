@@ -1,17 +1,25 @@
 using CityGML2GO;
 using Gamelogic.Extensions;
-using GeorgeChew.HiverlabAssessment.CityJson;
-using GeorgeChew.HiverlabAssessment.Heatmap;
-using System.Collections;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
-using UnityEngine;
 using UnityEngine.Assertions;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.CityJSON
+namespace GeorgeChew.UnityAssessment.CityJSON
 {
+    using Heatmap;
+    using CityJson;
     using Events = EventMessaging.Registry.CityJson;
 
+    /// <summary>
+    /// Functionality to generate all the buildings using the data from 
+    /// <see cref="HdbDataLoader"/> and <see cref="VerticesDataLoader"/>.
+    /// </summary>
+    /// <remarks>
+    /// Only used when buildings needed to be regenerated; the generated model should be saved
+    /// as FBX using Unity's FBX Exporter package.
+    /// </remarks>
     public class BuildingsGenerator : MonoBehaviour
     {
         [Header("Script References")]
@@ -44,7 +52,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
         }
 
         [ContextMenu("Start Loading Buildings")]
-        void StartLoadingBuildings()
+        private void StartLoadingBuildings()
         {
             gameObject.SetActive(true);
             buildingsParent.gameObject.SetActive(true);
@@ -62,6 +70,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             {
                 GenerateBuilding(cityObjects[i]);
 
+                // load only a certain amount of buildings per frame
                 if (fragmentedLoading && i % buildingsToLoadPerFrame == 0)
                 {
                     yield return new WaitForEndOfFrame();
@@ -94,7 +103,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             });
             blocks.Add(hdbBlock);
 
-            Vector3 buildingPos = GetBuildingPosition(cityObject);
+            Vector3 buildingPos = GetBuildingCenter(cityObject);
 
             GameObject building = hdbBlock.gameObject;
             building.name = cityObject.Address;
@@ -105,7 +114,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             AddMeshComponents(building, mesh);
         }
 
-        private Vector3 GetBuildingPosition(CityObject cityObject)
+        private Vector3 GetBuildingCenter(CityObject cityObject)
         {
             int[][][] boundary = cityObject.geometry[0].boundaries[0];
 
@@ -152,12 +161,14 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             return mainMesh;
         }
 
-        // Create a mesh from the indices indicated in the town geometry,
-        // which references the vertices file
+        /// <summary>
+        /// Create a mesh from the indices indicated in the building's geometry,
+        /// which is cross-referenced the vertices file.
+        /// </summary>
         private Mesh CreateMeshFromIndices(int[] indices, Vector3 position)
         {
+            // cross-reference index to get coordinates from vertices data
             var coordinates = indices
-                // select from vertices list based in index
                 .Select(i => vertices[i] - position);
 
             // don't draw faces that are facing down, i.e. faces that have all y-coord as 0
@@ -200,6 +211,9 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             building.transform.localPosition = newPos;
         }
 
+        /// <summary>
+        /// Add the generated mesh to the MeshFilter, with some added checks.
+        /// </summary>
         private void AddMeshComponents(GameObject go, Mesh mesh)
         {
             var mf = go.GetComponent<MeshFilter>();

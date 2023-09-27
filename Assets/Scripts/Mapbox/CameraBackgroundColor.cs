@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+﻿using Mapbox.Unity.Map;
 using System;
-using Mapbox.Unity.Map;
 using UnityEngine.Assertions;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.Mapbox
+namespace GeorgeChew.UnityAssessment.Mapbox
 {
     /// <summary>
     /// Changes the Background Color of the Camera according to the <see cref="ImagerySourceType"/>

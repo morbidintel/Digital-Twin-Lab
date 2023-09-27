@@ -4,7 +4,7 @@ using UnityEngine.Assertions;
 using UnityEngine.UI;
 using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.UI
+namespace GeorgeChew.UnityAssessment.UI
 {
     using Events = EventMessaging.Registry.UI;
 

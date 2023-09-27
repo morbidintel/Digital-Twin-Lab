@@ -1,11 +1,11 @@
 ﻿using Mapbox.Unity.Map;
-using System;
-using UnityEngine;
-using UnityEngine.UI;
 using System.Linq;
+using System;
 using UnityEngine.Assertions;
+using UnityEngine.UI;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.MapBox
+namespace GeorgeChew.UnityAssessment.MapBox
 {
     /// <summary>
     /// Facilitates changing the Mapbox Image Source with a Dropdown
@@ -21,7 +21,7 @@ namespace GeorgeChew.HiverlabAssessment.MapBox
             Assert.IsNotNull(dropdown);
         }
 
-        void Start()
+        private void Start()
         {
             PopulateDropdown();
 

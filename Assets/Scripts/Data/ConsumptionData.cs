@@ -1,7 +1,7 @@
-﻿using System;
-using Random = UnityEngine.Random;
+﻿using Random = UnityEngine.Random;
+using System;
 
-namespace GeorgeChew.HiverlabAssessment.Data
+namespace GeorgeChew.UnityAssessment.Data
 {
     [Serializable]
     public class ConsumptionData

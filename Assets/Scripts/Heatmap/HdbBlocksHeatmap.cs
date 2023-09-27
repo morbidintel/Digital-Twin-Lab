@@ -1,10 +1,10 @@
 ﻿using Gamelogic.Extensions;
-using System;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.Heatmap
+namespace GeorgeChew.UnityAssessment.Heatmap
 {
     using CityJsonEvents = EventMessaging.Registry.CityJson;
 

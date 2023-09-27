@@ -1,10 +1,10 @@
 ﻿using DG.Tweening;
 using Gamelogic.Extensions;
-using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.UI
+namespace GeorgeChew.UnityAssessment.UI
 {
     /// <summary>
     /// Controls the on screen compass and events triggered by clicks on that compass.

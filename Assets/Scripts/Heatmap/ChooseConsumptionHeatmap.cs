@@ -1,10 +1,10 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.UI;
-using System.Linq;
+﻿using System.Linq;
+using System;
 using UnityEngine.Assertions;
+using UnityEngine.UI;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.Heatmap
+namespace GeorgeChew.UnityAssessment.Heatmap
 {
     /// <summary>
     /// Facilitates changing the HDB Blocks heatmap with a Dropdown

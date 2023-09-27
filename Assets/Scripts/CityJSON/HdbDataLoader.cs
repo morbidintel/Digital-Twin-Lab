@@ -3,13 +3,13 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using System;
 using UnityEngine.Assertions;
 using UnityEngine;
-using System.Linq;
 
-namespace GeorgeChew.HiverlabAssessment.CityJson
+namespace GeorgeChew.UnityAssessment.CityJson
 {
     using Events = EventMessaging.Registry.CityJson;
 
@@ -50,11 +50,16 @@ namespace GeorgeChew.HiverlabAssessment.CityJson
         public Dictionary<string, CityObject> CityObjects = new();
     }
 
+    /// <summary>
+    /// Load the HDB and vertex data for all the buildings in the specified directory that
+    /// contains JSON files. <br></br>
+    /// The number specified in the boundaries array directly correlates
+    /// to the index of the coordinates data retrieved from <see cref="VerticesDataLoader"/>.
+    /// </summary>
     public class HdbDataLoader : MonoBehaviour
     {
         [SerializeField] private string directory;
 
-        private Dictionary<string, bool> filesToRead = new();
         private ConcurrentBag<CityObject> cityObjects = new();
 
         private void Awake()
@@ -69,16 +74,18 @@ namespace GeorgeChew.HiverlabAssessment.CityJson
         {
             var sw = System.Diagnostics.Stopwatch.StartNew();
 
+            // get all the JSON files in the directory and read each in its separate thread
+            List<Task> tasks = new();
             foreach (var file in Directory.EnumerateFiles(directory, "*.json"))
             {
-                filesToRead.Add(file, false);
-                Task.Run(() => ReadFile(file));
+                Task task = Task.Run(() => ReadFile(file));
+                tasks.Add(task);
             }
 
-            yield return new WaitUntil(() => filesToRead.Values.All(v => v));
+            yield return new WaitUntil(() => tasks.TrueForAll(t => t.IsCompleted));
 
             Debug.Log($"[HdbDataLoader] " +
-                $"Read {filesToRead.Count} files in {sw.ElapsedMilliseconds} ms.");
+                $"Read {tasks.Count} files in {sw.ElapsedMilliseconds} ms.");
 
             Events.OnLoadedAllFiles.Publish(cityObjects.ToList());
         }
@@ -92,8 +99,6 @@ namespace GeorgeChew.HiverlabAssessment.CityJson
             {
                 cityObjects.Add(cityObject);
             }
-
-            filesToRead[path] = true;
         }
     }
 }

@@ -1,9 +1,9 @@
-﻿using Gamelogic.Extensions;
-using Mapbox.Unity.Map;
+﻿using UnityEngine;
 using UnityEngine.Assertions;
-using UnityEngine;
+using Mapbox.Unity.Map;
+using Gamelogic.Extensions;
 
-namespace GeorgeChew.HiverlabAssessment.Mapbox
+namespace GeorgeChew.UnityAssessment.Mapbox
 {
     /// <summary>
     /// Updates a GameObject's scale to scale according to a <see cref="AbstractMap"/>

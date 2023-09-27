@@ -1,6 +1,6 @@
 {
-    "name": "GeorgeChew.HiverlabAssessment.EventMessaging",
-    "rootNamespace": "GeorgeChew.HiverlabAssessment.EventMessaging",
+    "name": "GeorgeChew.UnityAssessment.EventMessaging",
+    "rootNamespace": "GeorgeChew.UnityAssessment.EventMessaging",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

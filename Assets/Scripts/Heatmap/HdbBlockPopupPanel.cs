@@ -1,10 +1,10 @@
 ﻿using Gamelogic.Extensions;
 using TMPro;
-using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
+using UnityEngine;
 
-namespace GeorgeChew.HiverlabAssessment.Heatmap
+namespace GeorgeChew.UnityAssessment.Heatmap
 {
     using HeatmapEvents = EventMessaging.Registry.Heatmap;
 
