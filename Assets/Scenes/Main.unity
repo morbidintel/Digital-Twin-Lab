@@ -1296,7 +1296,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 400, y: 0}
-  m_SizeDelta: {x: 400, y: 252}
+  m_SizeDelta: {x: 400, y: 352}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &262597087
 MonoBehaviour:
@@ -1504,7 +1504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &302039145
 Transform:
   m_ObjectHideFlags: 0
@@ -1535,9 +1535,10 @@ MonoBehaviour:
   hdbDataLoader: {fileID: 302039148}
   verticesDataLoader: {fileID: 302039147}
   buildingsParent: {fileID: 0}
-  buildingPrefab: {fileID: 1656745230745414312, guid: 595f876d8d9477b41a2fe8a277eca1d5,
+  buildingPrefab: {fileID: 3555873227932247954, guid: 390b86c97df7ab84db25c1be084e4d4f,
     type: 3}
   buildingsToLoadPerFrame: 10
+  doGenerateBuildings: 0
 --- !u!114 &302039147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,8 +1825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200, y: -183}
-  m_SizeDelta: {x: 344, y: 82}
+  m_AnchoredPosition: {x: 200, y: -233}
+  m_SizeDelta: {x: 344, y: 182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431212320
 MonoBehaviour:
