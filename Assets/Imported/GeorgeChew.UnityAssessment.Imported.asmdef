@@ -1,6 +1,6 @@
 {
-    "name": "GeorgeChew.HiverlabAssessment.ExternalDependencies",
-    "rootNamespace": "GeorgeChew.HiverlabAssessment.ExternalDependencies",
+    "name": "GeorgeChew.UnityAssessment.Imported",
+    "rootNamespace": "GeorgeChew.UnityAssessment.Imported",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
