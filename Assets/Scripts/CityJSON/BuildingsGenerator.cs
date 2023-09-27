@@ -23,6 +23,8 @@ namespace GeorgeChew.UnityAssessment.CityJSON
     /// </remarks>
     public class BuildingsGenerator : MonoBehaviour
     {
+        [SerializeField] private bool doGenerateBuildings = false;
+
         [Header("Script References")]
         [SerializeField] private HdbDataLoader hdbDataLoader;
         [SerializeField] private VerticesDataLoader verticesDataLoader;
@@ -33,7 +35,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
 
         [Header("Config")]
         [SerializeField] private int buildingsToLoadPerFrame = 10;
-        [SerializeField] private bool doGenerateBuildings = false;
+        [SerializeField] private bool onlyLoadResidential = true;
 
         // data read from file
         private List<CityObject> cityObjects = null;
@@ -65,19 +67,19 @@ namespace GeorgeChew.UnityAssessment.CityJSON
             }
             else
             {
-                StartCoroutine(PublishOnLoadedEvent());
+                StartCoroutine(PopulateAndPublishBlocks());
             }
         }
 
-        private IEnumerator PublishOnLoadedEvent()
+        private IEnumerator PopulateAndPublishBlocks()
         {
             // get existing HdbBlockObjects in the scene
             blocks.AddRange(FindObjectsOfType<HdbBlockObject>());
 
             yield return new WaitUntil(() => cityObjects != null);
 
+            // find and populate data for the existing HdbBlockObjects
             var cityObjectsDict = cityObjects.ToDictionary(c => c.Address);
-            int count = 0;
             foreach (var block in blocks)
             {
                 if (!cityObjectsDict.TryGetValue(block.name, out var cityObject))
@@ -99,11 +101,10 @@ namespace GeorgeChew.UnityAssessment.CityJSON
                     height = attributes.height,
                 });
 
-                //if (++count > buildingsToLoadPerFrame)
-                //{
-                //    yield return new WaitForEndOfFrame();
-                //    count = 0;
-                //}
+                if (onlyLoadResidential && !cityObject.isResidential)
+                {
+                    block.gameObject.SetActive(false);
+                }
             }
 
             // kickstart the scripts that depend on Events.OnLoadedAllFiles
@@ -148,6 +149,9 @@ namespace GeorgeChew.UnityAssessment.CityJSON
 
         private void GenerateBuilding(CityObject cityObject)
         {
+            if (onlyLoadResidential && !cityObject.isResidential)
+                return;
+
             var attributes = cityObject.attributes;
             var hdbBlock = Instantiate(buildingPrefab, buildingsParent);
             hdbBlock.Initialize(new()
