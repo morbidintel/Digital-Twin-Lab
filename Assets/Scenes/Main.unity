@@ -4819,6 +4819,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114196496685157712, guid: 5bb46bae81bf04608ac699be504c5e66,
         type: 3}
+      propertyPath: _options.tileMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 4df6d34c9910e1040a1c656f2afb1697, type: 2}
+    - target: {fileID: 114196496685157712, guid: 5bb46bae81bf04608ac699be504c5e66,
+        type: 3}
       propertyPath: _options.locationOptions.zoom
       value: 12
       objectReference: {fileID: 0}
@@ -7289,9 +7294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c699b8e1864b4b248acb7a04ede9480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _panSpeed: 2
-  _zoomSpeed: 1
-  _referenceCamera: {fileID: 2001912281}
+  _panSpeed: 1
+  _zoomSpeed: 0.25
+  _referenceCamera: {fileID: 0}
   _mapManager: {fileID: 47990922}
   _useDegreeMethod: 0
 --- !u!114 &2001912284
@@ -7314,6 +7319,8 @@ MonoBehaviour:
   - {r: 0.8117647, g: 0.9098039, b: 1, a: 0}
   - {r: 0.09019608, g: 0.14901961, b: 0.24313726, a: 0}
   - {r: 0.09803922, g: 0.15686275, b: 0.24705882, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &2001912285
 MonoBehaviour:
   m_ObjectHideFlags: 0
