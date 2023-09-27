@@ -9,18 +9,19 @@ namespace GeorgeChew.HiverlabAssessment.UI
     using Events = EventMessaging.Registry.UI;
 
     /// <summary>
-    /// Handles moving the left panel in and out of the screen
+    /// Handles animation of left panel tabs
     /// </summary>
     public class LeftPanelMovement : MonoBehaviour
     {
-        private readonly float tweenDuration = 0.3f;
+        private readonly float tweenDuration = 0.5f;
 
         [SerializeField] private ToggleGroup toggleGroup;
         [SerializeField] private List<LeftPanelTab> tabs;
 
+        private RectTransform rectTransform;
         private float panelWidth;
 
-        private LeftPanelTab currentlyOpenedPanel;
+        private LeftPanelTab currentlyOpenedTab;
 
         private void Awake()
         {
@@ -31,6 +32,7 @@ namespace GeorgeChew.HiverlabAssessment.UI
         // Start is called before the first frame update
         private void Start()
         {
+            rectTransform = transform as RectTransform;
             panelWidth = GetComponent<RectTransform>().sizeDelta.x;
 
             foreach (var tab in tabs)
@@ -38,7 +40,7 @@ namespace GeorgeChew.HiverlabAssessment.UI
                 tab.Initialize(toggleGroup);
             }
 
-            currentlyOpenedPanel = tabs.Find(t => t.IsVisible);
+            currentlyOpenedTab = tabs.Find(t => t.IsVisible);
 
             Events.OnAnyLeftPanelTabToggle += OnAnyLeftPanelTabToggle;
         }
@@ -57,38 +59,37 @@ namespace GeorgeChew.HiverlabAssessment.UI
             {
                 OpenPanel(tab);
             }
+            // don't animate if there's already a tab open
             else if (!toggleGroup.AnyTogglesOn())
             {
                 ClosePanel(tab);
             }
         }
 
-        public void OpenPanel(LeftPanelTab panel)
+        public void OpenPanel(LeftPanelTab tab)
         {
-            // we don't wanna move if a panel's already opened
-            if (currentlyOpenedPanel == null)
+            // close the current tab if it's open
+            if (currentlyOpenedTab != null)
             {
-                transform
-                    .DOMoveX(panelWidth, tweenDuration)
-                    .SetRelative();
-            }
-            else
-            {
-                currentlyOpenedPanel.Panel.SetActive(false);
+                currentlyOpenedTab.Panel.SetActive(false);
             }
 
-            currentlyOpenedPanel = panel;
-            panel.gameObject.SetActive(true);
+            // show and animate the new tab
+            currentlyOpenedTab = tab;
+            currentlyOpenedTab.Panel.SetActive(true);
+            rectTransform
+                .DOAnchorPosX(panelWidth, tweenDuration)
+                .SetEase(Ease.InOutExpo);
         }
 
-        public void ClosePanel(LeftPanelTab panel)
+        public void ClosePanel(LeftPanelTab tab)
         {
-            currentlyOpenedPanel = null;
+            currentlyOpenedTab = null;
 
-            transform
-                .DOMoveX(-panelWidth, tweenDuration)
-                .SetRelative()
-                .onComplete = () => panel.gameObject.SetActive(false);
+            rectTransform
+                .DOAnchorPosX(0, tweenDuration)
+                .SetEase(Ease.InOutExpo)
+                .onComplete = () => tab.Panel.SetActive(false);
         }
     }
 }
