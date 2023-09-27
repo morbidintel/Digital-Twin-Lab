@@ -45,7 +45,7 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
         public void Initialize(HdbBlockData hdbData)
         {
             this.hdbData = hdbData;
-            consumptionData = ConsumptionData.GenerateFromHdbData(hdbData);
+            consumptionData = ConsumptionData.GenerateFromHdbData(hdbData.total_dwelling_units);
         }
 
         public void OnPointerClick(PointerEventData eventData)

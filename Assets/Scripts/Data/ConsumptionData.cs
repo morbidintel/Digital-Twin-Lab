@@ -13,17 +13,18 @@ namespace GeorgeChew.HiverlabAssessment.Data
         public float energyPerUnit;
         public float waterPerUnit;
 
-        public static ConsumptionData GenerateFromHdbData(HdbBlockData hdbData)
+        public static ConsumptionData GenerateFromHdbData(float total_dwelling_units)
         {
-            int units = hdbData.total_dwelling_units;
-            ConsumptionData consumption = new()
+            float energyPerUnit = AverageEnergyPerUnit * Random.Range(0.9f, 1.1f);
+            float waterPerUnit = AverageWaterPerUnit * Random.Range(0.9f, 1.1f);
+
+            return new()
             {
-                energyPerUnit = AverageEnergyPerUnit * Random.Range(0.9f, 1.1f),
-                waterPerUnit = AverageWaterPerUnit * Random.Range(0.9f, 1.1f),
+                energyPerUnit = energyPerUnit,
+                waterPerUnit = waterPerUnit,
+                energy = total_dwelling_units * energyPerUnit,
+                water = total_dwelling_units * waterPerUnit,
             };
-            consumption.energy = units * consumption.energyPerUnit;
-            consumption.water = units * consumption.waterPerUnit;
-            return consumption;
         }
     }
 }
