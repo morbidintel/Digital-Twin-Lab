@@ -16,6 +16,7 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
         public enum HeatmapMode
         { None, Energy, Water }
 
+        [Header("Config")]
         [SerializeField] private Color energyMinColor;
         [SerializeField] private Color energyMaxColor;
         [SerializeField] private Color waterMinColor;

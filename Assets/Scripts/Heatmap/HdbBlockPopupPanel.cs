@@ -11,7 +11,7 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
     /// <summary>
     /// Manages the movement of and the data shown on the Energy Popup panel
     /// </summary>
-    public class EnergyPopup : MonoBehaviour
+    public class HdbBlockPopupPanel : MonoBehaviour
     {
         [SerializeField] private GameObject panel;
 
