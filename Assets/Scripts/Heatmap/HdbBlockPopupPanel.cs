@@ -9,7 +9,7 @@ namespace GeorgeChew.UnityAssessment.Heatmap
     using HeatmapEvents = EventMessaging.Registry.Heatmap;
 
     /// <summary>
-    /// Manages the movement of and the data shown on the Energy Popup panel
+    /// Handles the position and the data shown on the popup panel
     /// </summary>
     public class HdbBlockPopupPanel : MonoBehaviour
     {
@@ -48,7 +48,7 @@ namespace GeorgeChew.UnityAssessment.Heatmap
 
         private void Start()
         {
-            rectTransform = GetComponent<RectTransform>();
+            rectTransform = transform as RectTransform;
 
             closeButton.onClick.AddListener(ClosePopup);
             HeatmapEvents.OnClickHdbBlock += OpenPopup;
@@ -59,10 +59,8 @@ namespace GeorgeChew.UnityAssessment.Heatmap
             if (currentHdbBlock == null) return;
 
             // the map has constant position in the scene,
-            // and instead hdbBlock moves around in world space
+            // and the buildings move around in world space
             rectTransform.position = currentHdbBlock.transform.position;
-            rectTransform.sizeDelta =
-                new Vector2(0, popupHeight * currentHdbBlock.transform.lossyScale.z);
 
             locatorLine.SetPosition(0, transform.position);
             locatorLine.SetPosition(1, panel.transform.position);
@@ -75,6 +73,11 @@ namespace GeorgeChew.UnityAssessment.Heatmap
 
             locatorLine.gameObject.SetActive(true);
             panel.SetActive(true);
+
+            // conform the popup the scale of the building, so when the map is zoomed out,
+            // the popup should look the same size
+            float height = popupHeight * currentHdbBlock.transform.lossyScale.z;
+            rectTransform.sizeDelta = new(0, height);
 
             // populate data
             titleLabel.text = currentHdbBlock.HdbData.address;
