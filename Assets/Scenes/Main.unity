@@ -639,7 +639,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1532,13 +1532,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5650beecbfe38df43904d6f3e78286a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doGenerateBuildings: 0
   hdbDataLoader: {fileID: 302039148}
   verticesDataLoader: {fileID: 302039147}
   buildingsParent: {fileID: 0}
   buildingPrefab: {fileID: 3555873227932247954, guid: 390b86c97df7ab84db25c1be084e4d4f,
     type: 3}
   buildingsToLoadPerFrame: 10
-  doGenerateBuildings: 0
+  onlyLoadResidential: 1
 --- !u!114 &302039147
 MonoBehaviour:
   m_ObjectHideFlags: 0
