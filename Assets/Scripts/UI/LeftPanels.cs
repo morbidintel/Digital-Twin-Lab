@@ -11,7 +11,7 @@ namespace GeorgeChew.UnityAssessment.UI
     /// <summary>
     /// Handles animation of left panel tabs
     /// </summary>
-    public class LeftPanelMovement : MonoBehaviour
+    public class LeftPanels : MonoBehaviour
     {
         private readonly float tweenDuration = 0.5f;
 
