@@ -23,7 +23,10 @@ namespace GeorgeChew.UnityAssessment.CityJson
         private void Awake()
         {
             Assert.IsFalse(string.IsNullOrEmpty(filepath));
+        }
 
+        private void Start()
+        {
             filepath = Path.Combine(Application.streamingAssetsPath, filepath);
             StartCoroutine(ReadFile(filepath));
         }

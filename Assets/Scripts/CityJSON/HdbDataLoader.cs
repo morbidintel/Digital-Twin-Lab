@@ -65,7 +65,10 @@ namespace GeorgeChew.UnityAssessment.CityJson
         private void Awake()
         {
             Assert.IsFalse(string.IsNullOrEmpty(directory));
+        }
 
+        private void Start()
+        {
             directory = Path.Combine(Application.streamingAssetsPath, directory);
             StartCoroutine(GetFilesInDirectory(directory));
         }
@@ -87,7 +90,7 @@ namespace GeorgeChew.UnityAssessment.CityJson
             Debug.Log($"[HdbDataLoader] " +
                 $"Read {tasks.Count} files in {sw.ElapsedMilliseconds} ms.");
 
-            Events.OnLoadedAllFiles.Publish(cityObjects.ToList());
+            Events.OnLoadedHdbData.Publish(cityObjects.ToList());
         }
 
         private void ReadFile(string path)

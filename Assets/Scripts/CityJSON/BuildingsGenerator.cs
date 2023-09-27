@@ -17,8 +17,9 @@ namespace GeorgeChew.UnityAssessment.CityJSON
     /// <see cref="HdbDataLoader"/> and <see cref="VerticesDataLoader"/>.
     /// </summary>
     /// <remarks>
-    /// Only used when buildings needed to be regenerated; the generated model should be saved
-    /// as FBX using Unity's FBX Exporter package.
+    /// The field <see cref="doGenerateBuildings"/> should be false, and only turned on in 
+    /// the Editor if the buildings need to be regenerated. <br></br>
+    /// The generated model should be already be saved as FBX using Unity's FBX Exporter package.
     /// </remarks>
     public class BuildingsGenerator : MonoBehaviour
     {
@@ -32,6 +33,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
 
         [Header("Config")]
         [SerializeField] private int buildingsToLoadPerFrame = 10;
+        [SerializeField] private bool doGenerateBuildings = false;
 
         // data read from file
         private List<CityObject> cityObjects = null;
@@ -44,17 +46,75 @@ namespace GeorgeChew.UnityAssessment.CityJSON
         {
             Assert.IsNotNull(hdbDataLoader);
             Assert.IsNotNull(verticesDataLoader);
-            Assert.IsNotNull(buildingsParent);
-            Assert.IsNotNull(buildingPrefab);
 
-            Events.OnLoadedAllFiles += obj => cityObjects = obj as List<CityObject>;
+            if (doGenerateBuildings)
+            {
+                Assert.IsNotNull(buildingsParent);
+                Assert.IsNotNull(buildingPrefab);
+            }
+
+            Events.OnLoadedHdbData += obj => cityObjects = obj as List<CityObject>;
             Events.OnLoadedVertices += obj => vertices = obj as List<Vector3>;
+        }
+
+        private void Start()
+        {
+            if (doGenerateBuildings)
+            {
+                StartLoadingBuildings();
+            }
+            else
+            {
+                StartCoroutine(PublishOnLoadedEvent());
+            }
+        }
+
+        private IEnumerator PublishOnLoadedEvent()
+        {
+            // get existing HdbBlockObjects in the scene
+            blocks.AddRange(FindObjectsOfType<HdbBlockObject>());
+
+            yield return new WaitUntil(() => cityObjects != null);
+
+            var cityObjectsDict = cityObjects.ToDictionary(c => c.Address);
+            int count = 0;
+            foreach (var block in blocks)
+            {
+                if (!cityObjectsDict.TryGetValue(block.name, out var cityObject))
+                {
+                    Debug.Log($"[BuildingsGenerator] Can't find data for {block.name}");
+                    continue;
+                }
+
+                var attributes = cityObject.attributes;
+                block.Initialize(new()
+                {
+                    blk_no = attributes.hdb_blk_no,
+                    street = attributes.hdb_street,
+                    address = cityObject.Address,
+                    bldg_contract_town = attributes.hdb_bldg_contract_town,
+                    postal_code = attributes.postcode,
+                    total_dwelling_units = attributes.hdb_total_dwelling_units,
+                    max_floor_lvl = attributes.hdb_max_floor_lvl,
+                    height = attributes.height,
+                });
+
+                //if (++count > buildingsToLoadPerFrame)
+                //{
+                //    yield return new WaitForEndOfFrame();
+                //    count = 0;
+                //}
+            }
+
+            // kickstart the scripts that depend on Events.OnLoadedAllFiles
+            Events.OnLoadedAllHdbBlocks.Publish(blocks);
         }
 
         [ContextMenu("Start Loading Buildings")]
         private void StartLoadingBuildings()
         {
-            gameObject.SetActive(true);
+            hdbDataLoader.enabled = true;
+            verticesDataLoader.enabled = true;
             buildingsParent.gameObject.SetActive(true);
             StartCoroutine(LoadBuildings());
         }
@@ -161,10 +221,8 @@ namespace GeorgeChew.UnityAssessment.CityJSON
             return mainMesh;
         }
 
-        /// <summary>
-        /// Create a mesh from the indices indicated in the building's geometry,
-        /// which is cross-referenced the vertices file.
-        /// </summary>
+        // create a mesh from the indices indicated in the building's geometry,
+        // which is cross-referenced the vertices file.
         private Mesh CreateMeshFromIndices(int[] indices, Vector3 position)
         {
             // cross-reference index to get coordinates from vertices data
@@ -181,7 +239,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
             return Poly2Mesh.CreateMesh(new() { outside = coordinates.ToList() });
         }
 
-        // Move the Building and its mesh so that the mesh are centered at (0,0,0)
+        // move the Building and its mesh so that the mesh are centered at (0,0,0)
         // and the building is moved to the original position of the mesh center
         private void RecenterBuilding(GameObject building, Mesh mesh, bool ignoreY = true)
         {
@@ -211,9 +269,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
             building.transform.localPosition = newPos;
         }
 
-        /// <summary>
-        /// Add the generated mesh to the MeshFilter, with some added checks.
-        /// </summary>
+        // add the generated mesh to the MeshFilter, with some added checks.
         private void AddMeshComponents(GameObject go, Mesh mesh)
         {
             var mf = go.GetComponent<MeshFilter>();
