@@ -14,13 +14,16 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
 
     public class BuildingsGenerator : MonoBehaviour
     {
-        [Header("Scene")]
-        [SerializeField] private HdbBlockObject buildingPrefab;
+        [Header("Script References")]
+        [SerializeField] private HdbDataLoader hdbDataLoader;
+        [SerializeField] private VerticesDataLoader verticesDataLoader;
+
+        [Header("Scene and Prefab References")]
         [SerializeField] private Transform buildingsParent;
+        [SerializeField] private HdbBlockObject buildingPrefab;
 
         [Header("Config")]
         [SerializeField] private int buildingsToLoadPerFrame = 10;
-        [SerializeField] private bool loadNonResidential = false;
 
         // data read from file
         private List<CityObject> cityObjects = null;
@@ -31,14 +34,20 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
 
         private void Awake()
         {
+            Assert.IsNotNull(hdbDataLoader);
+            Assert.IsNotNull(verticesDataLoader);
+            Assert.IsNotNull(buildingsParent);
             Assert.IsNotNull(buildingPrefab);
 
             Events.OnLoadedAllFiles += obj => cityObjects = obj as List<CityObject>;
             Events.OnLoadedVertices += obj => vertices = obj as List<Vector3>;
         }
 
-        private void Start()
+        [ContextMenu("Start Loading Buildings")]
+        void StartLoadingBuildings()
         {
+            gameObject.SetActive(true);
+            buildingsParent.gameObject.SetActive(true);
             StartCoroutine(LoadBuildings());
         }
 
@@ -47,17 +56,20 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             yield return new WaitUntil(() => cityObjects != null && vertices != null);
 
             var sw = System.Diagnostics.Stopwatch.StartNew();
+            bool fragmentedLoading = buildingsToLoadPerFrame > 0;
 
             for (int i = 0; i < cityObjects.Count; i++)
             {
                 GenerateBuilding(cityObjects[i]);
 
-                if (i % buildingsToLoadPerFrame == 0)
+                if (fragmentedLoading && i % buildingsToLoadPerFrame == 0)
                 {
                     yield return new WaitForEndOfFrame();
                 }
             }
 
+            //RecenterAllBuildings();
+            //BatchMeshes();
 
             Events.OnLoadedAllHdbBlocks.Publish(blocks);
 
@@ -82,17 +94,30 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             });
             blocks.Add(hdbBlock);
 
+            Vector3 buildingPos = GetBuildingPosition(cityObject);
+
             GameObject building = hdbBlock.gameObject;
             building.name = cityObject.Address;
-            building.transform.localPosition = Vector3.zero;
+            building.transform.localPosition = buildingPos;
             building.transform.localScale = Vector3.one;
 
-            Mesh mesh = GenerateMesh(cityObject);
-            RecenterBuilding(building, mesh);
+            Mesh mesh = GenerateMesh(cityObject, buildingPos);
             AddMeshComponents(building, mesh);
         }
 
-        private Mesh GenerateMesh(CityObject cityObject)
+        private Vector3 GetBuildingPosition(CityObject cityObject)
+        {
+            int[][][] boundary = cityObject.geometry[0].boundaries[0];
+
+            List<Vector3> allVertices = boundary
+                .SelectMany(i => i.SelectMany(ii => ii))
+                .Select(i => vertices[i])
+                .ToList();
+
+            return allVertices.Aggregate((a, b) => a += b) / allVertices.Count;
+        }
+
+        private Mesh GenerateMesh(CityObject cityObject, Vector3 position)
         {
             List<Mesh> meshes = new();
 
@@ -100,7 +125,8 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
                 cityObject.geometry.Length == 0 ||
                 cityObject.geometry[0].boundaries.Length == 0)
             {
-                Debug.Log($"[BuildingsGenerator] {cityObject.Address}");
+                Debug.Log($"[BuildingsGenerator]" +
+                    $"Invalid object or geometry: {cityObject.Address}");
                 return null;
             }
 
@@ -109,7 +135,7 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             {
                 foreach (var vert in verts)
                 {
-                    Mesh mesh = CreateMeshFromIndices(vert);
+                    Mesh mesh = CreateMeshFromIndices(vert, position);
                     if (mesh) meshes.Add(mesh);
                 }
             }
@@ -128,11 +154,11 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
 
         // Create a mesh from the indices indicated in the town geometry,
         // which references the vertices file
-        private Mesh CreateMeshFromIndices(int[] indices)
+        private Mesh CreateMeshFromIndices(int[] indices, Vector3 position)
         {
             var coordinates = indices
                 // select from vertices list based in index
-                .Select(i => vertices[i]);
+                .Select(i => vertices[i] - position);
 
             // don't draw faces that are facing down, i.e. faces that have all y-coord as 0
             // saves about 18% vertices count
@@ -149,7 +175,8 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
         private void RecenterBuilding(GameObject building, Mesh mesh, bool ignoreY = true)
         {
             // save the position of the mesh bounds
-            Vector3 newPos = Epsg3414Conversion.DistanceFromCenter(mesh.bounds.center.WithY(0));
+            //Vector3 newPos = Epsg3414Conversion.DistanceFromCenter(mesh.bounds.center.WithY(0));
+            Vector3 newPos = mesh.bounds.center.WithY(0);
 
             // Move the vertices so that the mesh center is (0,0,0)
             var temp = mesh.vertices;
@@ -183,6 +210,27 @@ namespace GeorgeChew.HiverlabAssessment.CityJSON
             if (!mr) mr = go.AddComponent<MeshRenderer>();
             if (!mr.material) mr.material = new Material(Shader.Find("Standard"));
             mr.receiveShadows = false;
+        }
+
+        private void RecenterAllBuildings()
+        {
+            Bounds bounds = new(blocks[0].transform.position, Vector3.zero);
+            foreach (var block in blocks.Skip(1))
+            {
+                bounds.Encapsulate(block.transform.position);
+            }
+
+            var center = bounds.center.WithY(0);
+            foreach (var block in blocks)
+            {
+                block.transform.position -= center;
+            }
+        }
+
+        private void BatchMeshes()
+        {
+            var gameObjects = blocks.Select(b => b.gameObject).ToArray();
+            StaticBatchingUtility.Combine(gameObjects, buildingsParent.gameObject);
         }
     }
 }

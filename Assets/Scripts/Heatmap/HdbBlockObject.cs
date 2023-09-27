@@ -12,23 +12,26 @@ namespace GeorgeChew.HiverlabAssessment.Heatmap
     /// Attached to each generated HDB Block. Holds data and handles click events.
     /// </summary>
     [RequireComponent(typeof(MeshFilter))]
+    [RequireComponent(typeof(MeshRenderer))]
+    [RequireComponent(typeof(MeshCollider))]
     public class HdbBlockObject : MonoBehaviour, IPointerClickHandler
     {
         public HdbBlockData HdbData => hdbData;
         public ConsumptionData ConsumptionData => consumptionData;
 
-        [SerializeField] private MeshRenderer meshRenderer;
-        [SerializeField] private MeshCollider meshCollider;
-
         [SerializeField, ReadOnly] private HdbBlockData hdbData;
         [SerializeField, ReadOnly] private ConsumptionData consumptionData;
+
+        private MeshRenderer meshRenderer;
+        private MeshCollider meshCollider;
 
         private Material material;
         private Color originalColor;
 
         private void Awake()
         {
-            Assert.IsNotNull(meshRenderer);
+            meshRenderer = GetComponent<MeshRenderer>();
+            meshCollider = GetComponent<MeshCollider>();
         }
 
         private void Start()

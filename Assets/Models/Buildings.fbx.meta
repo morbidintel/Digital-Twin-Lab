@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: d72cefe3fcf8b02418b5a04d60e250f4
+guid: f50020dc0cf718d4f9b9ec86e626084c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HDB_Block_Material
-    second: {fileID: 2100000, guid: 416bc6d722dd836439da84e7c5eced59, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
