@@ -1,4 +1,4 @@
-# George's Unity Assessment
+# Digital Twin Lab
 
 This app allows you to explore a map of Singapore with (almost) every of its residential HDB blocks.
 The map system is leveraging Mapbox's Unity integration. The HDB blocks are generated from CityJSON files and exported to FBX.
