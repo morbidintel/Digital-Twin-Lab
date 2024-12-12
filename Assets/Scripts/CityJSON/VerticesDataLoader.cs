@@ -1,9 +1,9 @@
-using System.Collections;
+using GeorgeChew.UnityAssessment.Utils;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using UnityEngine.Assertions;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace GeorgeChew.UnityAssessment.CityJson
 {
@@ -28,10 +28,10 @@ namespace GeorgeChew.UnityAssessment.CityJson
         private void Start()
         {
             filepath = Path.Combine(Application.streamingAssetsPath, filepath);
-            StartCoroutine(ReadFile(filepath));
+            Task.Run(() => ReadFile(filepath));
         }
 
-        private IEnumerator ReadFile(string path)
+        private async Task ReadFile(string path)
         {
             var sw = System.Diagnostics.Stopwatch.StartNew();
 
@@ -39,26 +39,26 @@ namespace GeorgeChew.UnityAssessment.CityJson
             int count = lines.Length;
             Vertices = new Vector3[count];
 
-            Parallel.For(0, count, ReadLine);
+            var tasks = Enumerable.Range(0, count)
+                .Select(i => ReadLine(lines, i));
 
-            Debug.Log($"[VerticesDataLoader] " +
-                $"Read {Vertices.Length} vertices in {sw.ElapsedMilliseconds} ms.");
+            await Task.WhenAll(tasks);
+
+            Functions.Log($"Read {Vertices.Length} vertices in {sw.ElapsedMilliseconds} ms.");
 
             Events.OnLoadedVertices.Publish(Vertices.ToList());
+        }
 
-            yield break;
+        private async Task ReadLine(string[] lines, int index)
+        {
+            var line = lines[index];
+            var split = line.Split(',');
 
-            void ReadLine(int index)
+            if (float.TryParse(split[0], out var x) &&
+                float.TryParse(split[1], out var y) &&
+                float.TryParse(split[2], out var z))
             {
-                var line = lines[index];
-                var split = line.Split(',');
-
-                if (float.TryParse(split[0], out var x) &&
-                    float.TryParse(split[1], out var y) &&
-                    float.TryParse(split[2], out var z))
-                {
-                    Vertices[index] = new(x, y, z);
-                }
+                Vertices[index] = new(x, y, z);
             }
         }
     }

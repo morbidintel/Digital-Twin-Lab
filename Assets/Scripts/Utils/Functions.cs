@@ -85,7 +85,7 @@ namespace GeorgeChew.UnityAssessment.Utils
         /// Class name and method name are extracted from the stacktrace. See <see cref="GetLogPrefix"/>.
         /// </remarks>
         /// <param name="message">The message to log.</param>
-        public static void CustomLog(string message)
+        public static void Log(string message)
         {
             string prefix = GetLogPrefix();
             Debug.Log(prefix + message);
@@ -101,7 +101,7 @@ namespace GeorgeChew.UnityAssessment.Utils
         /// Class name and method name are extracted from the stacktrace. See <see cref="GetLogPrefix"/>.
         /// </remarks>
         /// <param name="message">The message to log.</param>
-        public static void CustomLogWarning(string message)
+        public static void LogWarning(string message)
         {
             string prefix = GetLogPrefix();
             Debug.LogWarning(prefix + message);
@@ -118,7 +118,7 @@ namespace GeorgeChew.UnityAssessment.Utils
         /// Class name and method name are extracted from the stacktrace. See <see cref="GetLogPrefix"/>.
         /// </remarks>
         /// <param name="message">An error message to log</param>
-        public static void CustomLogError(string message)
+        public static void LogError(string message)
         {
             string prefix = GetLogPrefix();
             Debug.LogError(prefix + message);
@@ -141,7 +141,7 @@ namespace GeorgeChew.UnityAssessment.Utils
         /// </remarks>
         /// <param name="e">The exception to log.</param>
         /// <param name="customMessage">An optional error message to log.</param>
-        public static void CustomLogError(Exception e, string customMessage = "")
+        public static void LogError(Exception e, string customMessage = "")
         {
             string prefix = GetLogPrefix();
             Debug.LogError($"{prefix}{customMessage}\n{e.Message}\n\n{e.StackTrace}\n");

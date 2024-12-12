@@ -1,23 +1,24 @@
 using CityGML2GO;
 using Gamelogic.Extensions;
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
-using UnityEngine.Assertions;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace GeorgeChew.UnityAssessment.CityJSON
 {
-    using Heatmap;
     using CityJson;
+    using Heatmap;
+    using Utils;
     using Events = EventMessaging.Registry.CityJson;
 
     /// <summary>
-    /// Functionality to generate all the buildings using the data from 
+    /// Functionality to generate all the buildings using the data from
     /// <see cref="HdbDataLoader"/> and <see cref="VerticesDataLoader"/>.
     /// </summary>
     /// <remarks>
-    /// The field <see cref="doGenerateBuildings"/> should be false, and only turned on in 
+    /// The field <see cref="doGenerateBuildings"/> should be false, and only turned on in
     /// the Editor if the buildings need to be regenerated. <br></br>
     /// The generated model should be already be saved as FBX using Unity's FBX Exporter package.
     /// </remarks>
@@ -74,7 +75,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
         private IEnumerator PopulateAndPublishBlocks()
         {
             // get existing HdbBlockObjects in the scene
-            blocks.AddRange(FindObjectsOfType<HdbBlockObject>());
+            blocks.AddRange(FindObjectsByType<HdbBlockObject>(FindObjectsSortMode.None));
 
             yield return new WaitUntil(() => cityObjects != null);
 
@@ -84,7 +85,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
             {
                 if (!cityObjectsDict.TryGetValue(block.name, out var cityObject))
                 {
-                    Debug.Log($"[BuildingsGenerator] Can't find data for {block.name}");
+                    Functions.Log($"Can't find data for {block.name}");
                     continue;
                 }
 
@@ -143,8 +144,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
 
             Events.OnLoadedAllHdbBlocks.Publish(blocks);
 
-            Debug.Log($"[BuildingsGenerator] " +
-                $"Generated {cityObjects.Count} buildings in {sw.ElapsedMilliseconds} ms.");
+            Functions.Log($"Generated {cityObjects.Count} buildings in {sw.ElapsedMilliseconds} ms.");
         }
 
         private void GenerateBuilding(CityObject cityObject)
@@ -198,8 +198,7 @@ namespace GeorgeChew.UnityAssessment.CityJSON
                 cityObject.geometry.Length == 0 ||
                 cityObject.geometry[0].boundaries.Length == 0)
             {
-                Debug.Log($"[BuildingsGenerator]" +
-                    $"Invalid object or geometry: {cityObject.Address}");
+                Functions.Log($"Invalid object or geometry: {cityObject.Address}");
                 return null;
             }
 

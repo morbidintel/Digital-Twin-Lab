@@ -1,13 +1,13 @@
-using Mapbox.Json;
+using GeorgeChew.UnityAssessment.Utils;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Collections;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using System;
-using UnityEngine.Assertions;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace GeorgeChew.UnityAssessment.CityJson
 {
@@ -70,32 +70,29 @@ namespace GeorgeChew.UnityAssessment.CityJson
         private void Start()
         {
             directory = Path.Combine(Application.streamingAssetsPath, directory);
-            StartCoroutine(GetFilesInDirectory(directory));
+            _ = GetFilesInDirectory(directory);
         }
 
-        private IEnumerator GetFilesInDirectory(string directory)
+        private async Task GetFilesInDirectory(string directory)
         {
+            await Task.Yield(); // force this method to be asynchronous
+
             var sw = System.Diagnostics.Stopwatch.StartNew();
 
             // get all the JSON files in the directory and read each in its separate thread
-            List<Task> tasks = new();
-            foreach (var file in Directory.EnumerateFiles(directory, "*.json"))
-            {
-                Task task = Task.Run(() => ReadFile(file));
-                tasks.Add(task);
-            }
+            var tasks = Directory.EnumerateFiles(directory, "*.json")
+                .Select(file => ReadFile(file));
 
-            yield return new WaitUntil(() => tasks.TrueForAll(t => t.IsCompleted));
+            await Task.WhenAll(tasks);
 
-            Debug.Log($"[HdbDataLoader] " +
-                $"Read {tasks.Count} files in {sw.ElapsedMilliseconds} ms.");
+            Functions.Log($"Read {tasks.Count()} files in {sw.ElapsedMilliseconds} ms.");
 
             Events.OnLoadedHdbData.Publish(cityObjects.ToList());
         }
 
-        private void ReadFile(string path)
+        private async Task ReadFile(string path)
         {
-            var json = File.ReadAllText(path);
+            var json = await File.ReadAllTextAsync(path);
             var data = JsonConvert.DeserializeObject<HdbTownFile>(json);
 
             foreach (var cityObject in data.CityObjects.Values)
